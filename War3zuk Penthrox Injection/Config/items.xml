@@ -1,0 +1,50 @@
+<configs>
+	
+<append xpath="/items">
+	
+<item name="Penthrox Injection">
+	<property name="DisplayType" value="medical"/>
+	<property name="CustomIcon" value="Penthrox Injection"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Stacknumber" value="20"/>
+	<property name="Group" value="Science"/>
+	<property name="ActionSkillGroup" value="Medicine"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
+
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_ointment"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="UseOther"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_ointment"/>
+	</property>
+
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="Penthrox Injection"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" target="self" message="Zombies now find you less appealing!!"/> 		
+	</effect_group>
+</item>
+
+<item name="Poison Vile">
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="water"/>
+	<property name="CustomIcon" value="Poison Vile"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Poison Vile.unity3d?Poison Vile.Prefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="20"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="200"/>
+	<property name="CraftingIngredientTime" value="10"/>
+</item>
+
+</append>
+</configs>
