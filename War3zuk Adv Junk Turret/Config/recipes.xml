@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	
+	<append xpath="/recipes">
+
+	<recipe name="Adv Junk Turret" count="1" tags="perkMiner69r">
+		<ingredient name="gunJunkTurret" count="1"/>
+		<ingredient name="gunJunkTurretParts" count="10"/>
+		<ingredient name="resourceForgedIron" count="50"/>
+		<ingredient name="resourceScrapPolymers" count="15"/>
+		<ingredient name="resourceSpring" count="10"/>
+	</recipe>
+	
+</append>
+</configs>
