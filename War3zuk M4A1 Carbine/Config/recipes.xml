@@ -1,0 +1,13 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="HD M4A1 Carbine" craft_area="workbench" count="1" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceDuctTape" count="30"/>
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+</append>
+</configs>
