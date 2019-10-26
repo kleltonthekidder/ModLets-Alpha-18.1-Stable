@@ -1,0 +1,22 @@
+<configs>
+<append xpath="/recipes">
+	
+	<recipe name="Survival Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="ParaMedic Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Builder Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Chef Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Farmer Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Teacher Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Security Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Military Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Police Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Pimp Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Mechanic Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	<recipe name="Undead Chest"> <ingredient name="Chest Paper" count="1"/></recipe>
+	
+	<recipe name="Chest Paper" count="1">
+	<ingredient name="resourcePaper" count="2500"/>
+	</recipe>
+
+</append>
+</configs>

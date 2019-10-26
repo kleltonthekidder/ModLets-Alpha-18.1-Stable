@@ -1,0 +1,21 @@
+<configs>
+	
+	
+	<append xpath="/items">
+
+<item name="Chest Paper">
+	<property name="DisplayInfo" value="Name" />
+	<property name="CreativeMode"     value="None"/>
+	<property name="HoldType"         value="21"/>
+	<property name="Meshfile"         value="Items/Misc/bookPrefab"/>
+	<property name="DropMeshfile"     value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material"         value="Mpaper"/>
+	<property name="CustomIcon"       value="questMaster"/>
+	<property name="Stacknumber"      value="50"/> 
+	<property name="EconomicValue"    value="1600"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group"            value="Special Items"/>
+</item>
+</append>
+	
+</configs>
