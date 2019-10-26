@@ -1,0 +1,12 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="HD Mini Hatchet" count="1"  craft_time = "30" tags="perkMiner69r">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceLeather" count="5"/>
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+</append>
+</configs>

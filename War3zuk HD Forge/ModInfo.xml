@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="War3zuk HD Forge" />
+		<Description value="Adds the HD Forge to the game" />
+		<Author value="War3zuk/Tallon" />
+		<Version value="1.0" />
+
+	</ModInfo>
+</xml>

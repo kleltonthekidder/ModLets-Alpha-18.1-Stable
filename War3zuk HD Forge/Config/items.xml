@@ -1,0 +1,53 @@
+<configs>
+	
+<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Titanium Polish</append>
+	
+<append xpath="/items">
+
+<item name="Forged Brass">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ForgedBrass"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="MresourceForgedBrass"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="Weight" value="60"/>
+	<property name="EconomicValue" value="75"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientExp" value="0"/>
+	<property name="CraftingIngredientTime" value="1"/>
+	<property name="RepairTime" value="1"/>
+	<property name="RepairAmount" value="400"/>
+</item>
+
+<item name="Forged Titanium">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="ForgedTitanium"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="MresourceForgedBrass"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="Weight" value="60"/>
+	<property name="EconomicValue" value="75"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientExp" value="0"/>
+	<property name="CraftingIngredientTime" value="1"/>
+	<property name="RepairTime" value="1"/>
+	<property name="RepairAmount" value="400"/>
+</item>
+
+<item name="Titanium Polish">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="Titanium Polish"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceScrapPolymers"/>
+	<property name="Weight" value="0"/>
+	<property name="Stacknumber" value="1000"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="Group" value="Resources"/>
+</item>
+
+</append>
+</configs>
