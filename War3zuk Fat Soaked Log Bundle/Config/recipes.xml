@@ -1,0 +1,12 @@
+<configs>
+	
+    <append xpath="/recipes">
+		
+                <recipe name="Fat Soaked Log Bundle" count="50">
+				<ingredient name="drinkJarGrainAlcohol" count="1" />
+				<ingredient name="resourceWood" count="50"/>
+				<ingredient name="resourceAnimalFat" count="5" />
+               </recipe>
+			   
+	</append>
+</configs>
