@@ -1,0 +1,46 @@
+<configs>
+	
+    <append xpath="/recipes">
+		
+      	<recipe name="ST Military Vest" count="1" craft_time = "60" >
+		<ingredient name="armorMilitarySetParts" count="5"/>
+		<ingredient name="resourceMilitaryFiber" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="20"/>
+		<ingredient name="resourceDuctTape" count="10"/>
+		<ingredient name="resourceSewingKit" count="5"/>
+		</recipe>
+	
+		<recipe name="ST Military Gloves" count="1" craft_time = "60" >
+		<ingredient name="armorMilitarySetParts" count="5"/>
+		<ingredient name="resourceMilitaryFiber" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="20"/>
+		<ingredient name="resourceDuctTape" count="10"/>
+		<ingredient name="resourceSewingKit" count="5"/>
+		</recipe>
+		
+		<recipe name="ST Military Legs" count="1" craft_time = "60" >
+		<ingredient name="armorMilitarySetParts" count="5"/>
+		<ingredient name="resourceMilitaryFiber" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="20"/>
+		<ingredient name="resourceDuctTape" count="10"/>
+		<ingredient name="resourceSewingKit" count="5"/>
+		</recipe>
+	
+		<recipe name="ST Military Boots" count="1" craft_time = "60" >
+		<ingredient name="armorMilitarySetParts" count="5"/>
+		<ingredient name="resourceMilitaryFiber" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="20"/>
+		<ingredient name="resourceDuctTape" count="10"/>
+		<ingredient name="resourceSewingKit" count="5"/>
+		</recipe>
+	
+		<recipe name="ST Military Helmet" count="1" craft_time = "60" >
+		<ingredient name="armorMilitarySetParts" count="5"/>
+		<ingredient name="resourceMilitaryFiber" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="20"/>
+		<ingredient name="resourceDuctTape" count="10"/>
+		<ingredient name="resourceSewingKit" count="5"/>
+		</recipe>
+		
+   </append>
+   </configs>
