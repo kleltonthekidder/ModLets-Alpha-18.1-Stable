@@ -1,0 +1,154 @@
+<configs>
+	
+ <append xpath="/quests" >
+
+
+<quest id="Starter Class">
+		<property name="CustomIcon" value="Starter Class"/>
+		<property name="name_key" value="Welcome, Choose Your Class" />
+		<property name="subtitle_key" value="Starter Class Items" />
+		<property name="description_key" value="Create Your Class And Defend Against The Zombie Hoards!" />
+		<property name="icon" value="ui_game_symbol_zombie" />
+				<property name="shareable" value="false" />
+		<property name="difficulty" value="easy" />
+
+		<property name="repeatable" value="false" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Welcome, Choose Your Class." />
+	</quest>
+
+<quest id="Starter Builder">
+		<property name="name_key" value="Starter Builder Class" />
+		<property name="subtitle_key" value="Starter Class Items" />
+		<property name="description_key" value="Create Your Class And Defend Against The Zombie Hoards!" />
+		<property name="icon" value="misc_crafting" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Now You Have Chosen Your Class Go Forth!" />
+		<property name="difficulty" value="easy" />
+		<property name="shareable" value="true" />
+		<reward type="Item" id="armorMiningHelmet" value="6" isfixed="true"/>
+		<reward type="Item" id="gunPistol" value="2" isfixed="true"/>
+		<reward type="Item" id="ammo9mmBulletBall" value="100" isfixed="true"/>
+		<reward type="Item" id="drinkJarBoiledWater" value="5" isfixed="true"/>
+		<reward type="Item" id="foodCanLamb" value="5" isfixed="true"/>
+		<reward type="Item" id="medicalFirstAidKit" value="5" isfixed="true"/>
+		<reward type="Item" id="resourceWoodBundle" value="1" isfixed="true"/>
+		<reward type="Item" id="gunToolNailgun" value="1" isfixed="true"/>
+		<reward type="Item" id="meleeToolWrench" value="2" isfixed="true"/>
+		<reward type="Item" id="resourceScrapIron" value="1000" isfixed="true"/>
+		<reward type="Item" id="meleeToolAuger" value="2" isfixed="true"/>
+	</quest>
+	
+	<quest id="Starter Chef">
+		<property name="name_key" value="Starter Chef Class" />
+		<property name="subtitle_key" value="Starter Class Items" />
+		<property name="description_key" value="Create Your Class And Defend Against The Zombie Hoards!" />
+		<property name="icon" value="misc_crafting" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Now You Have Chosen Your Class Go Forth!" />
+		<property name="difficulty" value="easy" />
+		<property name="shareable" value="true" />
+		<reward type="Item" id="gunPistol" value="2" isfixed="true"/>
+		<reward type="Item" id="ammo9mmBulletBall" value="100" isfixed="true"/>
+		<reward type="Item" id="drinkJarBoiledWater" value="5" isfixed="true"/>
+		<reward type="Item" id="foodCanLamb" value="5" isfixed="true"/>
+		<reward type="Item" id="toolCookingGrill" value="1" isfixed="true"/>
+		<reward type="Item" id="toolCookingPot" value="1" isfixed="true"/>
+		<reward type="Item" id="foodBoiledMeat" value="10" isfixed="true"/>
+		<reward type="Item" id="foodSteakAndPotato" value="5" isfixed="true"/>
+		<reward type="Item" id="drinkJarCoffee" value="5" isfixed="true"/>
+	</quest>
+	
+	<quest id="Starter Mechanic">
+		<property name="name_key" value="Starter Mechanic Class" />
+		<property name="subtitle_key" value="Starter Class Items" />
+		<property name="description_key" value="Create Your Class And Defend Against The Zombie Hoards!" />
+		<property name="icon" value="misc_crafting" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Now You Have Chosen Your Class Go Forth!" />
+		<property name="difficulty" value="easy" />
+		<property name="shareable" value="true" />
+		<reward type="Item" id="gunPistol" value="2" isfixed="true"/>
+		<reward type="Item" id="ammo9mmBulletBall" value="100" isfixed="true"/>
+		<reward type="Item" id="drinkJarBoiledWater" value="5" isfixed="true"/>
+		<reward type="Item" id="foodCanLamb" value="5" isfixed="true"/>
+		<reward type="Item" id="vehicleBicyclePlaceable" value="1" isfixed="true"/>
+		<reward type="Item" id="resourceSpring" value="50" isfixed="true"/>
+		<reward type="Item" id="resourceForgedIron" value="50" isfixed="true"/>
+		<reward type="Item" id="resourceForgedSteel" value="50" isfixed="true"/>
+		<reward type="Item" id="resourceScrapPolymers" value="50" isfixed="true"/>
+		<reward type="Item" id="resourceMechanicalParts" value="50" isfixed="true"/>
+	</quest>
+	
+		<quest id="Starter Medic">
+		<property name="name_key" value="Starter Medic Class" />
+		<property name="subtitle_key" value="Starter Class Items" />
+		<property name="description_key" value="Create Your Class And Defend Against The Zombie Hoards!" />
+		<property name="icon" value="misc_crafting" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Now You Have Chosen Your Class Go Forth!" />
+		<property name="difficulty" value="easy" />
+		<property name="shareable" value="true" />
+		<reward type="Item" id="gunPistol" value="2" isfixed="true"/>
+		<reward type="Item" id="ammo9mmBulletBall" value="100" isfixed="true"/>
+		<reward type="Item" id="drinkJarBoiledWater" value="5" isfixed="true"/>
+		<reward type="Item" id="foodCanLamb" value="5" isfixed="true"/>
+		<reward type="Item" id="medicalAloeCream" value="20" isfixed="true"/>
+		<reward type="Item" id="medicalFirstAidBandage" value="10" isfixed="true"/>
+		<reward type="Item" id="medicalFirstAidKit" value="10" isfixed="true"/>
+		<reward type="Item" id="medicalSplint" value="5" isfixed="true"/>
+		<reward type="Item" id="medicalPlasterCast" value="5" isfixed="true"/>
+		<reward type="Item" id="drugPainkillers" value="5" isfixed="true"/>
+	</quest>
+	
+	<quest id="Starter Military">
+		<property name="name_key" value="Starter Military Class" />
+		<property name="subtitle_key" value="Starter Class Items" />
+		<property name="description_key" value="Create Your Class And Defend Against The Zombie Hoards!" />
+		<property name="icon" value="misc_crafting" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Now You Have Chosen Your Class Go Forth!" />
+		<property name="difficulty" value="easy" />
+		<property name="shareable" value="true" />
+		<reward type="Item" id="gunMR10" value="2" isfixed="true"/>
+		<reward type="Item" id="ammo762mmBulletBall" value="100" isfixed="true"/>
+		<reward type="Item" id="drinkJarBoiledWater" value="5" isfixed="true"/>
+		<reward type="Item" id="foodCanLamb" value="5" isfixed="true"/>
+		<reward type="Item" id="armorMilitaryHelmet" value="3" isfixed="true"/>
+		<reward type="Item" id="armorMilitaryVest" value="3" isfixed="true"/>
+		<reward type="Item" id="armorMilitaryGloves" value="3" isfixed="true"/>
+		<reward type="Item" id="armorMilitaryLegs" value="3" isfixed="true"/>
+		<reward type="Item" id="armorMilitaryBoots" value="3" isfixed="true"/>
+		<reward type="Item" id="modArmorTripleStoragePocket" value="1" isfixed="true"/>
+		<reward type="Item" id="modGunScopeSmall" value="1" isfixed="true"/>
+	</quest>
+	
+	<quest id="Starter Security">
+		<property name="name_key" value="Starter Security Class" />
+		<property name="subtitle_key" value="Starter Class Items" />
+		<property name="description_key" value="Create Your Class And Defend Against The Zombie Hoards!" />
+		<property name="icon" value="misc_crafting" />
+		<property name="repeatable" value="true" />
+		<property name="category_key" value="challenge" />
+		<property name="offer_key" value="Now You Have Chosen Your Class Go Forth!" />
+		<property name="difficulty" value="easy" />
+		<property name="shareable" value="true" />
+		<reward type="Item" id="gun44Magnum" value="2" isfixed="true"/>
+		<reward type="Item" id="ammo44MagnumBulletBall" value="150" isfixed="true"/>
+		<reward type="Item" id="drinkJarBoiledWater" value="5" isfixed="true"/>
+		<reward type="Item" id="foodCanLamb" value="5" isfixed="true"/>
+		<reward type="Item" id="meleeToolFlashlight02" value="1" isfixed="true"/>
+		<reward type="Item" id="resourceLockPickBundle" value="1" isfixed="true"/>
+		<reward type="Item" id="meleeToolFireaxeSteel" value="3" isfixed="true"/>
+		<reward type="Item" id="meleeToolPickaxeIron" value="3" isfixed="true"/>
+		<reward type="Item" id="meleeToolShovelSteel" value="3" isfixed="true"/>
+		<reward type="Item" id="meleeToolWrench" value="3" isfixed="true"/>
+	</quest>
+	
+</append>
+</configs>

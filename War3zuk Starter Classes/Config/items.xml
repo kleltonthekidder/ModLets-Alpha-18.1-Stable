@@ -1,0 +1,74 @@
+<configs>
+	
+	<append xpath="/items" >
+		
+<item name="Starter Class">
+	<property name="DisplayInfo" value="Name" />
+	<property name="CreativeMode"     value="None"/>
+	<property name="HoldType"         value="21"/>
+	<property name="Meshfile"         value="Items/Misc/bookPrefab"/>
+	<property name="DropMeshfile"     value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material"         value="Mpaper"/>
+	<property name="CustomIcon"       value="Starter Class"/>
+	<property name="Stacknumber"      value="1"/> 
+	<property name="EconomicValue"    value="600"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group"            value="Special Items"/>
+</item>
+			
+<item name="Starter Builder">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="Starter Builder" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="Starter Builder" />
+    </property>
+</item>
+
+<item name="Starter Chef">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="Starter Chef" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="Starter Chef" />
+    </property>
+</item>
+
+<item name="Starter Mechanic">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="Starter Mechanic" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="Starter Mechanic" />
+    </property>
+</item>
+
+<item name="Starter Medic">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="Starter Medic" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="Starter Medic" />
+    </property>
+</item>
+
+<item name="Starter Military">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="Starter Military" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="Starter Military" />
+    </property>
+</item>
+
+<item name="Starter Security">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="Starter Security" />
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="Starter Security" />
+    </property>
+</item>
+				
+    </append>
+</configs>
