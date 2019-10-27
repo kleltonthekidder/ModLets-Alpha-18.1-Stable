@@ -11,7 +11,7 @@
 			
 	<append xpath="/blocks/block[@name='stainlessSteelMaster']">
 		<property class="RepairItems">
-			<property name="Titanium Polish" value="10"/>
+			<property name="Titanium Polish" value="2"/>
 			</property>
 			</append>
 	
