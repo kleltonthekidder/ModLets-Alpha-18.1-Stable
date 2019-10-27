@@ -12,5 +12,4 @@
 	<set xpath="/windows/window[@name='windowCraftingList']/panel/grid[@name='recipes']/@rows">11</set>
 	
 </configs>
-
 <!--  BIG Thanks too ExtremeLurker for Sorting the Recipes List without which this wouldnt work as Intended -->

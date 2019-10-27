@@ -8,3 +8,4 @@
 	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
 	
 </configs>
+<!--  BIG Thanks too ExtremeLurker for Sorting the Recipes List without which this wouldnt work as Intended -->
