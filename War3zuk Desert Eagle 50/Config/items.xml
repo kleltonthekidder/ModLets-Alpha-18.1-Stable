@@ -114,7 +114,7 @@
 	<item name="Ammo Supply DE50">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupply50Mag"/>
-	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property name="DescriptionKey" value="Ammo Supply DE50Desc"/>
 	</item>
 
 </append>
