@@ -1,0 +1,8 @@
+Key,Source,Context,Changes,English
+Ammo Supply 9mmDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply 44MagDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply 762mmDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply ShotgunDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply ShotgunSlugDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply Breach SlugDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply ShredderDesc,items,Ammo,New,You've Just found a bag of ammo !!

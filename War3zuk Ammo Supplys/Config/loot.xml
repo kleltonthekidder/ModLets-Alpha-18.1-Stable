@@ -7,7 +7,7 @@
 		<item name="Ammo Supply Shotgun" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.2"/>
-		<item name="Ammo Supply Shredder" count="4,8" prob="0.2"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
@@ -17,7 +17,7 @@
 		<item name="Ammo Supply Shotgun" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.2"/>
-		<item name="Ammo Supply Shredder" count="4,8" prob="0.2"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
@@ -27,7 +27,7 @@
 		<item name="Ammo Supply Shotgun" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.2"/>
-		<item name="Ammo Supply Shredder" count="4,8" prob="0.2"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
@@ -37,7 +37,7 @@
 		<item name="Ammo Supply Shotgun" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.2"/>
-		<item name="Ammo Supply Shredder" count="4,8" prob="0.2"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
@@ -47,7 +47,7 @@
 		<item name="Ammo Supply Shotgun" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.2"/>
-		<item name="Ammo Supply Shredder" count="4,8" prob="0.2"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
@@ -57,7 +57,7 @@
 		<item name="Ammo Supply Shotgun" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply ShotgunSlug" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply Breach Slug" count="2,4" prob="0.2"/>
-		<item name="Ammo Supply Shredder" count="4,8" prob="0.2"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob="0.1"/>
 		</append> 		
 
 </configs>

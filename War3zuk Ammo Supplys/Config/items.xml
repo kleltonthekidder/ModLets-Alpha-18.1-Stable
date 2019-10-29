@@ -23,7 +23,7 @@
 		<item name="Ammo Supply 9mm">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupply9mm"/>
-	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property name="DescriptionKey" value="Ammo Supply 9mmDesc"/>
 		</item>
 	</append>
 
@@ -31,7 +31,7 @@
 		<item name="Ammo Supply 44Mag">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupply44Mag"/>
-	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property name="DescriptionKey" value="Ammo Supply 44MagDesc"/>
 	</item>
 	</append>
 
@@ -39,7 +39,7 @@
 		<item name="Ammo Supply 762mm">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupply762mm"/>
-	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property name="DescriptionKey" value="Ammo Supply 762mmDesc"/>
 	</item>
 	</append>
 	
@@ -47,7 +47,7 @@
 		<item name="Ammo Supply Shotgun">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupplyShotgun"/>
-	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property name="DescriptionKey" value="Ammo Supply ShotgunDesc"/>
 	</item>
 	</append>
 
@@ -55,7 +55,7 @@
 		<item name="Ammo Supply ShotgunSlug">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupplyShotgunSlug"/>
-	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property name="DescriptionKey" value="Ammo Supply ShotgunSlugDesc"/>
 		</item>
 	</append>
 	
@@ -63,7 +63,7 @@
 		<item name="Ammo Supply Breach Slug">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammosupplybreach"/>
-	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property name="DescriptionKey" value="Ammo Supply Breach SlugDesc"/>
 		</item>
 	</append>
 	
@@ -71,7 +71,7 @@
 		<item name="Ammo Supply Shredder">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammosupplyshredder"/>
-	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	<property name="DescriptionKey" value="Ammo Supply ShredderDesc"/>
 		</item>
 	</append>
 
