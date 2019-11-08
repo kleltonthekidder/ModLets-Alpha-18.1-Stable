@@ -36,5 +36,13 @@
 	<ingredient name="Steel Polish" count="1"/>
 </recipe>
 
+<recipe name="scrapIronLogSpike4" count="1">
+	<ingredient name="resourceScrapIron" count="10"/>
+</recipe>
+
+<recipe name="woodLogSpike1" count="1">
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
 </append>
 </configs>
