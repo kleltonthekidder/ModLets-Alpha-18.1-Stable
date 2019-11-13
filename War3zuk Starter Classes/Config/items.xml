@@ -19,7 +19,7 @@
 <item name="Starter Builder">
     <property name="Extends" value="questMaster" />
     <property name="CustomIcon" value="Starter Builder" />
-    <property name="DescriptionKey" value="Starter Builder"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
     <property class="Action0">
     <property name="QuestGiven" value="Starter Builder" />
     </property>
@@ -28,7 +28,7 @@
 <item name="Starter Chef">
     <property name="Extends" value="questMaster" />
     <property name="CustomIcon" value="Starter Chef" />
-    <property name="DescriptionKey" value="Starter Chef"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
     <property class="Action0">
     <property name="QuestGiven" value="Starter Chef" />
     </property>
@@ -37,7 +37,7 @@
 <item name="Starter Mechanic">
     <property name="Extends" value="questMaster" />
     <property name="CustomIcon" value="Starter Mechanic" />
-    <property name="DescriptionKey" value="Starter Mechanic"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
     <property class="Action0">
     <property name="QuestGiven" value="Starter Mechanic" />
     </property>
@@ -46,7 +46,7 @@
 <item name="Starter Medic">
     <property name="Extends" value="questMaster" />
     <property name="CustomIcon" value="Starter Medic" />
-    <property name="DescriptionKey" value="Starter Medic"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
     <property class="Action0">
     <property name="QuestGiven" value="Starter Medic" />
     </property>
@@ -55,7 +55,7 @@
 <item name="Starter Military">
     <property name="Extends" value="questMaster" />
     <property name="CustomIcon" value="Starter Military" />
-    <property name="DescriptionKey" value="Starter Military"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
     <property class="Action0">
     <property name="QuestGiven" value="Starter Military" />
     </property>
@@ -64,7 +64,7 @@
 <item name="Starter Security">
     <property name="Extends" value="questMaster" />
     <property name="CustomIcon" value="Starter Security" />
-    <property name="DescriptionKey" value="Starter Security"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
     <property class="Action0">
     <property name="QuestGiven" value="Starter Security" />
     </property>

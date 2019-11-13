@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
 		<Name value="War3zuk Starter Classes" />
 		<Description value="Starter Kits" />
 		<Author value="War3zuk/Tallon" />
-		<Version value="1.0" />
+		<Version value="1.1" />
 		<Website value="" />
 	</ModInfo>
 </xml>
