@@ -3,10 +3,11 @@
 <append xpath="/items">
 	
 <item name="Fat Soaked Log Bundle">
+	<property name="CustomIcon" value="Fat Soaked Log Bundle" />
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="CustomIcon" value="Fat Soaked Log Bundle"/>
+	<property name="CustomIcon" value="resourceWood"/>
 	<property name="Material" value="MresourceWood"/>
 	<property name="Weight" value="5"/>
 	<property name="Stacknumber" value="10000"/>

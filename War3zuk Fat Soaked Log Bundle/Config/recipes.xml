@@ -2,11 +2,11 @@
 	
     <append xpath="/recipes">
 		
-                <recipe name="Fat Soaked Log Bundle" count="50">
-				<ingredient name="drinkJarGrainAlcohol" count="1" />
-				<ingredient name="resourceWood" count="50"/>
-				<ingredient name="resourceAnimalFat" count="5" />
-               </recipe>
+<recipe name="Fat Soaked Log Bundle" craft_time = "5" count="1000">
+	<ingredient name="drinkJarGrainAlcohol" count="2" />
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceAnimalFat" count="2" />
+</recipe>
 			   
 	</append>
 </configs>

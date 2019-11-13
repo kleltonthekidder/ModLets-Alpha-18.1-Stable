@@ -1,6 +1,7 @@
 <configs>
 	
 	<append xpath="/items">
+		
 		<item name="HD Lock Pick">	
 			<property name="CustomIcon" value="HD Lock Pick" />
 			<property name="Tags" value="knife,melee,light,tool,lockpick"/>
@@ -10,6 +11,7 @@
 			<property name="Material" value="Mmetal"/>
 			<property name="RepairTools" value="resourceScrapIron"/>
 			<property name="Stacknumber" value="20"/>
+			<property name="DescriptionKey" value="HDLPDesc"/>
 			<property name="DegradationBreaksAfter" value="true"/>
 			<property name="SoundJammed" value="weapon_jam"/>
 			<property name="CrosshairUpAfterShot" value="true"/>
@@ -34,5 +36,6 @@
 			<property name="CraftingSkillGroup" value="craftSkillTools"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 		</item>
+		
 	</append>
 </configs>

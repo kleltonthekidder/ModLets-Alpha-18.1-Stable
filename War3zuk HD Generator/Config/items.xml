@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <config>
 	
 <append xpath="/items">
@@ -17,6 +16,7 @@
 	<property name="Group" value="Resources,Chemicals"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="ShowQuality" value="false"/>
+	<property name="DescriptionKey" value="HDCellDesc"/>
 	<property class="Attributes">
 		<property name="DegradationMax" value="10916,10922"/>
 		<property name="BatteryMaxLoadInVolts" value="10916, 10922"/>

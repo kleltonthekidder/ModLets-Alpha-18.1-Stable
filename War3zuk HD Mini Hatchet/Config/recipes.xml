@@ -1,4 +1,5 @@
 <configs>
+	
 <append xpath="/recipes">
 
 <recipe name="HD Mini Hatchet" count="1"  craft_time = "30" tags="perkMiner69r">

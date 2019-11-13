@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
 <xml>
 	<ModInfo>
 		<Name value="Spas 12 Shotgun" />
 		<Description value="Adds the Spas 12 Shotgun to the game" />
 		<Author value="Mayic" />
-		<Version value="1.0" />
+		<Version value="1.2" />
 
 	</ModInfo>
 </xml>
