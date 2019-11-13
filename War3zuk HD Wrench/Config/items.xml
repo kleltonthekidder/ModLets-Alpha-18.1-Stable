@@ -1,8 +1,9 @@
 <configs>
+	
 <append xpath="/items">
 
 <item name="HD Wrench">
-	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,perkSalvageOperations"/>
+	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,perkSalvageOperations,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeRepairTool"/>
 	<property name="HoldType" value="29"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HDWrench.unity3d?HDWrench.Prefab"/>
@@ -22,9 +23,9 @@
 		<property name="Sound_harvesting" value="wrench_harvest" param1="metal"/>
 		<property name="Particle_harvesting" value="true" param1="metal"/>
 	</property>
-	<property class="Action1"> <!-- UseAction -->
+	<property class="Action1">
 		<property name="Class" value="Repair"/>
-		<property name="Delay" value="1"/> <!-- Repair actions still need the delay amount -->
+		<property name="Delay" value="1"/>
 		<property name="Repair_amount" value="650"/>
 		<property name="Upgrade_hit_offset" value="-2"/>
 		<property name="Sound_start" value="repair_block"/>
@@ -33,15 +34,15 @@
 	<effect_group name="Base Effects">
 		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="50.5"/> <!-- meleeToolWrench -->
-		<passive_effect name="BlockDamage" operation="base_set" value="50"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="wood"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.3" tags="stone"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="15.5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="25"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="85"/> <!-- A16 1.1 -->
-		<passive_effect name="HarvestCount" operation="base_set" value="3.5" tags="salvageHarvest"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="2.0" tags="primary"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="80"/>
+		<passive_effect name="HarvestCount" operation="base_set" value="2.5" tags="salvageHarvest"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="1.2" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1000,1500" tier="1,6"/>
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".50" tags="EntityDamage,BlockDamage"/>
