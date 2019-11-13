@@ -1,7 +1,7 @@
 <configs>
 <append xpath="/recipes">
 
-<recipe name="Punisher" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
+<recipe name="HD Desert Eagle" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
 	<ingredient name="resourceForgedSteel" count="75"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="12"/>
@@ -14,7 +14,7 @@
 	<ingredient name="resourceBulletCasing" count="1"/>
 </recipe>
 
-<recipe name="Deagle Round" count="50">
+<recipe name="Deagle Round" count="50" craft_time = "0.5">
 	<ingredient name="Ammo Supply DE50" count="1"/>
 </recipe>
 

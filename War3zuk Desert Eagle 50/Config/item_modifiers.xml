@@ -1,21 +1,21 @@
 <configs>
 
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
-		<item_property_overrides name="Punisher">
+		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="true"/>
 			<property name="BarrelOffset" value="0,0.05,0.05"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
-		<item_property_overrides name="Punisher">
+		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="ScopeCameraOffset" value="0.0001,-0.020,0.01"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
-		<item_property_overrides name="Punisher">
+		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="true"/>
 		</item_property_overrides>
 	</append>

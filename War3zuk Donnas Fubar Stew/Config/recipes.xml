@@ -2,10 +2,10 @@
 	
 <append xpath="/recipes">
 
-<recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingPot" >
+<recipe name="Donnas Fubar Stew" count="2" craft_time="10" craft_area="campfire" tags="learnable,perkMasterChef" craft_tool="toolCookingPot" >
 	<ingredient name="Donnas Fubar Steak" count="1"/>
-	<ingredient name="foodCanCatfood" count="1"/>
-	<ingredient name="foodCanDogfood" count="1"/>
+	<ingredient name="foodCanSham" count="1"/>
+	<ingredient name="foodCanPasta" count="1"/>
 	<ingredient name="foodCanStock" count="1"/>
 	<ingredient name="foodCanTuna" count="1"/>
 </recipe>

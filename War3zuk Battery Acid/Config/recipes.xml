@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <configs>
 	
 	<append xpath="/recipes">
 
-	<recipe name="resourceAcid" count="1" tags="perkMiner69r">
-		<ingredient name="carBattery" count="2"/>
-		<ingredient name="drinkJarEmpty" count="1"/>
-	</recipe>
+<recipe name="resourceAcid" count="1" craft_time = "5" tags="perkMiner69r">
+	<ingredient name="carBattery" count="2"/>
+	<ingredient name="drinkJarEmpty" count="1"/>
+</recipe>
 	
 </append>
 </configs>

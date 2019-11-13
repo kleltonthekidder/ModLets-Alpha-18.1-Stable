@@ -1,8 +1,8 @@
 <configs>
 <append xpath="/items">
 
-<item name="Punisher">
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun"/>
+<item name="HD Desert Eagle">
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/Desert Eagle 50.unity3d?DE50CAL.Prefab"/>
@@ -12,13 +12,13 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/> <!-- aimTest -->
-	<property name="CrosshairUpAfterShot" value="true"/> <!-- aimTest -->
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="revolver_sight_in"/>
 	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
-	<property name="LightSource" value="lightSource"/> <!-- Start: Needed for the attachment flashlight -->
+	<property name="LightSource" value="lightSource"/>
 	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
-	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/> <!-- End: Needed for the attachment flashlight -->
+	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
@@ -60,19 +60,19 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="100"/>
 
 		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/> <!-- 4s -->
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/> <!-- random rng -->
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/> <!-- random BlockDmg -->
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 
-		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/> <!-- random DegMax -->
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/> <!-- random APM -->
-		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/> <!-- random MagazineSize -->
-		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/> <!-- random WeaponHandling -->
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
 
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.0"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.0"/>
@@ -101,21 +101,21 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<effect_group name="Base Effects" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="80"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="70"/>
+		<passive_effect name="BlockDamage" operation="base_set" value=".1"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
 	</effect_group>
 </item>
 
-	<item name="Ammo Supply DE50">
+<item name="Ammo Supply DE50">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupply50Mag"/>
-	<property name="DescriptionKey" value="Ammo Supply DE50Desc"/>
-	</item>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+</item>
 
 </append>
 </configs>
