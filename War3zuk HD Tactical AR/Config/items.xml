@@ -101,7 +101,7 @@
 	</effect_group>
 </item>
 
-	<item name="Ammo Supply 500 Auto Max">
+<item name="Ammo Supply 500 Auto Max">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupply500Mag"/>
 	<property name="DescriptionKey" value="Ammo Supply 500 AMDesc"/>
