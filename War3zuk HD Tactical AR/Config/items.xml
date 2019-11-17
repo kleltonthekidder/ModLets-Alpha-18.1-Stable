@@ -24,7 +24,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
-		<property name="Magazine_items" value="500 Auto Max,500Mag Bullet INC"/>
+		<property name="Magazine_items" value="500 Auto Max"/>
 		<property name="Sound_start" value="ak47_fire"/>
 		<property name="Sound_empty" value="dryfire"/>
 		<property name="Sound_reload" value="ak47_reload"/>
@@ -101,7 +101,7 @@
 	</effect_group>
 </item>
 
-<item name="Ammo Supply 500 Auto Max">
+	<item name="Ammo Supply 500 Auto Max">
 	<property name="Extends" value="Generic Ammo Supply"/>
 	<property name="CustomIcon" value="ammoSupply500Mag"/>
 	<property name="DescriptionKey" value="Ammo Supply 500 AMDesc"/>
