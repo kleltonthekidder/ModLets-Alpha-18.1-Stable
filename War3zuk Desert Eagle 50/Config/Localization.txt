@@ -1,2 +1,0 @@
-Key,Source,Context,Changes,English
-Ammo Supply DE50Desc,items,Ammo,New,You've Just found a bag of ammo !!
