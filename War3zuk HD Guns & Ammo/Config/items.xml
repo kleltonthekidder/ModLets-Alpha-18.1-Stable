@@ -1,0 +1,784 @@
+<configs>
+	
+	<append xpath="/items">
+		<item name="Generic Ammo Supply">
+	<property name="CustomIcon" value="genericAmmoBox" />
+	<property name="DescriptionKey" value="genericAmmoBoxDesc"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mwood"/>
+	<property name="EconomicValue" value="180"/>
+	<property name="HoldType" value="3"/>
+	<property name="Stacknumber" value="30000"/>
+	<property class="Preview">
+		<property name="Zoom" value="28"/>
+		<property name="Pos" value="0,-0.05"/>
+		<property name="Rot" value="90,45,0"/>
+	</property>
+	<property name="Group" value="Resources"/>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Ammo Supply 9mm">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply9mm"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Ammo Supply 44Mag">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply44Mag"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Ammo Supply 762mm">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply762mm"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	</item>
+	</append>
+	
+	<append xpath="/items">
+		<item name="Ammo Supply Shotgun">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupplyShotgun"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+	</item>
+	</append>
+
+	<append xpath="/items">
+		<item name="Ammo Supply ShotgunSlug">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupplyShotgunSlug"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		</item>
+	</append>
+	
+	<append xpath="/items">
+		<item name="Ammo Supply Breach Slug">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammosupplybreach"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		</item>
+	</append>
+	
+	<append xpath="/items">
+		<item name="Ammo Supply Shredder">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammosupplyshredder"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		</item>
+	</append>
+	
+<append xpath="/items">
+
+<item name="HD Desert Eagle">
+	<property name="DescriptionKey" value="HDDEDesc"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="1"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Desert Eagle 50.unity3d?DE50CAL.Prefab"/>
+	<property name="CustomIcon" value="Desert Eagle 50"/>
+	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="revolver_sight_in"/>
+	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="LightValue" value=".45"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="UnlockedBy" value="HD Desert Eagle Schematic"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".34"/>
+		<property name="Magazine_items" value="Deagle Round,50Mag Bullet INC,50Mag Bullet SH"/>
+		<property name="Reload_time" value="4"/>
+		<property name="Sound_start" value="44magnum_fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="44magnum_reload"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>
+		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
+		<property name="ScopeOffset" value="-.00062,.1408,.02"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="0,-.000,0"/>
+	</property>
+
+	<effect_group name="gun44Magnum">
+		<passive_effect name="MaxRange" operation="base_set" value="50"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="20"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="2" tags="wood"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="100"/>
+
+		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.0"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.0"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".35"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.0"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.0"/>
+
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.1"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".6"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkGunslinger"/>
+	</effect_group>
+</item>
+
+<item name="HD M4A1 Carbine">
+	<property name="DescriptionKey" value="HDM4A1CDesc"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="48"/>
+	<property name="CustomIcon" value="HD M4A1 Carbine"/>
+	<property name="Meshfile" value="#@modfolder:Resources/M4A1Carbine.unity3d?M4A1.Prefab"/>
+	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="4"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Sound_Sight_In" value="rifle_sight_in"/>
+	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="HD M4A1 Carbine Schematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".150"/>
+		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP,762Mag Bullet INC,762Mag Bullet SH"/>
+		<property name="Sound_start" value="ak47_fire"/>
+		<property name="Sound_loop" value="ak47_fire"/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="ak47_reload"/>
+		<property name="Sound_end" value="ak47_fire_end"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_AK47_fpv"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
+	</property>
+
+	<effect_group name="gunAK47">
+		<passive_effect name="MaxRange" operation="base_set" value="90"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1,.1"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+
+		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMachineGunner"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value=".01,.01"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="0,0"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value=".01,.01"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="850"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="50"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0.0"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0.0"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".1"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".1"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.0"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.0"/>
+
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0"/>
+
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0.1"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="2250,4550" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+	</effect_group>
+</item>
+
+<item name="HD Tactical AR">
+	<property name="DescriptionKey" value="HDTARDesc"/>
+	<property name="CustomIcon" value="HD Tactical AR"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="71"/>
+	<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Tactical Assault Rifle/tacticalAssaultRiflePrefab.prefab"/>
+	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="4"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Sound_Sight_In" value="rifle_sight_in"/>
+	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="UnlockedBy" value="HD Tactical AR Schematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".150"/>
+		<property name="Magazine_items" value="500 Auto Max,500Mag Bullet INC,500Mag Bullet SH"/>
+		<property name="Sound_start" value="ak47_fire"/>
+		<property name="Sound_loop" value="ak47_fire"/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="ak47_reload"/>
+		<property name="Sound_end" value="ak47_fire_end"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_AK47_fpv"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".50"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="-.00062,0,.055"/>
+	</property>
+
+	<effect_group name="gunTacticalAR">
+		<passive_effect name="MaxRange" operation="base_set" value="90"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
+
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.01,.01"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".01,.01" tier="2,6"/>
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMachineGunner"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.130,.130"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.05,.05"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="750"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".5"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".2"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.1"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.5"/>
+
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.2"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.9"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="2150,5150" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
+
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+	</effect_group>
+</item>
+
+<item name="HD Spas 12">
+	<property name="DescriptionKey" value="HDS12Desc"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,attStrength,perkBoomstick,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="5"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Shot.unity3d?Spaz12Prefab"/>
+	<property name="CustomIcon" value="HD Spas 12"/>
+	<property name="Material" value="MShotgunParts"/> <property name="Weight" value="4"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="rifle_sight_in"/>
+	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="PickupJournalEntry" value="alternateAmmoTip"/>
+	<property name="LightValue" value=".45"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="UnlockedBy" value="HD Spas 12 Schematic"/>
+	<property name="ShowQuality" value="true"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".8"/>
+		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
+		<property name="Reload_time" value="2.6"/>
+		<property name="Sound_start" value="pump_shotgun_fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Particles_muzzle_fire" value="gunfire_shotgun"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_shotgun_fpv"/>
+		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
+		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
+		<property name="ScopeOffset" value="-.00062,.088,.065"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="0,-.017,0"/>
+	</property>
+
+	<effect_group name="gunPumpShotgun">
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="80"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+
+		<passive_effect name="MagazineSize" operation="base_set" value="12"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.20,.20"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkBoomstick"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0.2"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0.2"/>
+
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0.2"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0.2"/>
+
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1.7"/>
+
+		<passive_effect name="DegradationMax" operation="base_set" value="2500,5000" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkBoomstick"/>
+	</effect_group>
+</item>
+
+<item name="Deagle Round">
+	<property name="Extends" value="ammo44MagnumBulletBall"/>
+	<property name="CustomIcon" value="Deagle Round"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="Base Effects" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="70"/>
+		<passive_effect name="BlockDamage" operation="base_set" value=".1"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+	</effect_group>
+</item>
+
+<item name="Ammo Supply DE50">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply50Mag"/>
+	<property name="DescriptionKey" value="ammoSupplyDesc"/>
+</item>
+
+<item name="500 Auto Max">
+	<property name="Extends" value="ammo762mmBulletBall"/>
+	<property name="CustomIcon" value="500 AM"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="Base Effects" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="50"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".2" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+	</effect_group>
+</item>
+
+<item name="Ammo Supply 500 Auto Max">
+	<property name="Extends" value="Generic Ammo Supply"/>
+	<property name="CustomIcon" value="ammoSupply500Mag"/>
+	<property name="DescriptionKey" value="Ammo Supply 500 AMDesc"/>
+</item>
+		
+<item name="HD Desert Eagle Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Desert Eagle Schematic"/>
+	<property name="Unlocks" value="HD Desert Eagle"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Desert Eagle" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+	</effect_group>
+</item>
+
+<item name="HD M4A1 Carbine Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD M4A1 Carbine Schematic"/>
+	<property name="Unlocks" value="HD M4A1 Carbine"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD M4A1 Carbine" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+	</effect_group>
+</item>
+
+<item name="HD Tactical AR Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Tactical AR Schematic"/>
+	<property name="Unlocks" value="HD Tactical AR"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Tactical AR" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+	</effect_group>
+</item>
+		
+<item name="HD Spas 12 Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Spas 12 Schematic"/>
+	<property name="Unlocks" value="HD Spas 12"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+	</effect_group>
+</item>
+
+<item name="9mm Bullet SH">
+	<property name="CustomIcon" value="9mm Bullet SH" />
+	<property name="Extends" value="ammo9mmBulletBall"/>
+	<property name="EconomicValue" value="30"/>
+    <property name="Stacknumber" value="20000" /> 
+	  <property name="DescriptionKey" value="BulletINCDesc"/>
+	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="30"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffHDShocked">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffHDShocked"/>
+				</triggered_effect>
+			</effect_group>
+		 </item>
+		 
+<item name="44Mag Bullet SH">
+			 <property name="CustomIcon" value="44Mag Bullet SH" />
+		 <property name="Extends" value="ammo44MagnumBulletBall"/>
+		<property name="EconomicValue" value="50"/>
+		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		<property name="DescriptionKey" value="BulletINCDesc"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="40"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffHDShocked">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffHDShocked"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+<item name="50Mag Bullet SH">
+			 <property name="CustomIcon" value="50Mag Bullet SH" />
+		 <property name="Extends" value="Deagle Round"/>
+		<property name="EconomicValue" value="60"/>
+		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		<property name="DescriptionKey" value="BulletINCDesc"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="50"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffHDShocked">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffHDShocked"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+<item name="500Mag Bullet SH">
+			 <property name="CustomIcon" value="500Mag Bullet SH" />
+		 <property name="Extends" value="Deagle Round"/>
+		<property name="EconomicValue" value="70"/>
+		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		<property name="DescriptionKey" value="BulletINCDesc"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="60"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffHDShocked">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffHDShocked"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+<item name="762Mag Bullet SH">
+		<property name="CustomIcon" value="762Mag Bullet SH" />
+		<property name="Extends" value="ammo762mmBulletBall"/>
+		<property name="EconomicValue" value="80"/>
+		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		 <property name="DescriptionKey" value="BulletINCDesc"/>
+        <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="60"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffHDShocked">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffHDShocked"/>
+				</triggered_effect>
+			</effect_group>
+</item>
+
+<item name="HD Electrolyte">
+	<property name="CustomIcon" value="HD Electrolyte"/>
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="UnlockedBy" value="perkYeahScience"/>
+	<property name="Material" value="MresourceScrapLeadLarge"/>
+	<property name="Stacknumber" value="20000"/>
+	<property name="Weight" value="160"/>
+	<property name="EconomicValue" value="2000"/>
+	<property name="Group" value="Resources,Chemicals"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="ShowQuality" value="false"/>
+	<property name="DescriptionKey" value="HDEDesc"/>
+</item>
+
+<!--  Valmar Stallionsden War3zuk EDIT -->
+<item name="9mm Bullet INC">
+	<property name="CustomIcon" value="9mm Bullet INC" />
+	<property name="Extends" value="ammo9mmBulletBall"/>
+	<property name="EconomicValue" value="30"/>
+    <property name="Stacknumber" value="20000" /> 
+	  <property name="DescriptionKey" value="BulletINCDesc"/>
+	  <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		 </item>
+		 
+<item name="44Mag Bullet INC">
+			 <property name="CustomIcon" value="44Mag Bullet INC" />
+		 <property name="Extends" value="ammo44MagnumBulletBall"/>
+		<property name="EconomicValue" value="50"/>
+		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		<property name="DescriptionKey" value="BulletINCDesc"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+<item name="50Mag Bullet INC">
+			 <property name="CustomIcon" value="50Mag Bullet INC" />
+		 <property name="Extends" value="Deagle Round"/>
+		<property name="EconomicValue" value="60"/>
+		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		<property name="DescriptionKey" value="BulletINCDesc"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="30"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+<item name="500Mag Bullet INC">
+			 <property name="CustomIcon" value="500Mag Bullet INC" />
+		 <property name="Extends" value="Deagle Round"/>
+		<property name="EconomicValue" value="70"/>
+		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		<property name="DescriptionKey" value="BulletINCDesc"/>
+       <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="40"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		</item>
+		
+<item name="762Mag Bullet INC">
+		<property name="CustomIcon" value="762Mag Bullet INC" />
+		<property name="Extends" value="ammo762mmBulletBall"/>
+		<property name="EconomicValue" value="80"/>
+		 <property name="Stacknumber" value="20000" /> 
+		 <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+		 <property name="DescriptionKey" value="BulletINCDesc"/>
+        <effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="50"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+</item>
+		
+ <item name="Hollow Tip">
+     <property name="Extends" value="resourceBulletTip" />
+     <property name="DescriptionKey" value="HollowTipDesc"/>
+</item>
+<!--  Valmar Stallionsden War3zuk EDIT -->
+		
+</append>
+
+<!--  Valmar Stallionsden War3zuk EDIT -->
+<append xpath="/items/item[@name='gunPistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mm Bullet INC,9mm Bullet SH</append>
+<append xpath="/items/item[@name='gun44Magnum']/property[@class='Action0']/property[@name='Magazine_items']/@value">,44Mag Bullet INC,44Mag Bullet SH</append>
+<append xpath="/items/item[@name='gunSMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,9mmBulletBall,9mmBulletHP,9mmBulletAP,9mm Bullet INC,9mm Bullet SH</append>
+<append xpath="/items/item[@name='gunHuntingRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762Mag Bullet INC,762Mag Bullet SH</append>
+<append xpath="/items/item[@name='gunMR10']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762Mag Bullet INC,762Mag Bullet SH</append>
+<append xpath="/items/item[@name='gunAK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762Mag Bullet INC,762Mag Bullet SH</append>
+<append xpath="/items/item[@name='gunM60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,762Mag Bullet INC,762Mag Bullet SH</append>
+<!--  Valmar Stallionsden War3zuk EDIT -->
+
+</configs>

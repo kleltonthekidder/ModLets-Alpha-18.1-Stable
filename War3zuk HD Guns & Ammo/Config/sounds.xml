@@ -1,0 +1,162 @@
+<configs>
+	
+<append xpath="/Sounds">
+
+<SoundDataNode name="silencea"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="5" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silencea"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence1"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="1" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence1"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence2"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="1" time="3" heat_map_strength="0.005" heat_map_time="30"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence2"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence3"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="1" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence3"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>	
+	
+<SoundDataNode name="silence4"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="10" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence4"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence5"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="10" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence5"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence6"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="10" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence6"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+
+	<SoundDataNode name="dbfire"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="80" volume="200" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?dbfire"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="shotgunshell"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?shotgunempty"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="spazfire"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="80" volume="200" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?spazfire"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="spazreload"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?spazreload"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="spazpump"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?spazpump"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+
+	<SoundDataNode name="ting"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="1" range="5" volume="5" time="3" heat_map_strength="0.005" heat_map_time="300"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?ting"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	</append>
+</configs>

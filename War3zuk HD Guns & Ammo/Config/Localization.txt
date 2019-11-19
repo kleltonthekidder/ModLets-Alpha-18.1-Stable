@@ -1,0 +1,30 @@
+Key,Source,Context,Changes,English
+Ammo Supply 9mmDesc,items,Ammo,New,You've Just found a bag of ammo !!
+
+Ammo Supply 44MagDesc,items,Ammo,New,You've Just found a bag of ammo !!
+
+Ammo Supply 762mmDesc,items,Ammo,New,You've Just found a bag of ammo !!
+
+Ammo Supply ShotgunDesc,items,Ammo,New,You've Just found a bag of ammo !!
+
+Ammo Supply ShotgunSlugDesc,items,Ammo,New,You've Just found a bag of ammo !!
+
+Ammo Supply Breach SlugDesc,items,Ammo,New,You've Just found a bag of ammo !!
+
+Ammo Supply ShredderDesc,items,Ammo,New,You've Just found a bag of ammo !!
+
+Ammo Supply DE50Desc,items,Ammo,New,You've Just found a bag of ammo !!
+
+Ammo Supply 500 AMDesc,items,Ammo,New,You've Just found a bag of .500 AR AutoMax ammo !!
+
+HDEDescitems,items,,,Used in the creation of Shock Ammo.
+
+HDDEDesc,items,weapons,New,The Desert Eagle is a semi automatic handgun notable for chambering the largest centerfire cartridge of any magazine fed self loading pistol place points into Gunslinger to craft better version.
+
+HDM4A1CDesc,items,weapons,New,The M4A1 carbine is a fully automatic variant of the basic M4 carbine intended for special operations use place points into MachineGunner to craft better versions.
+
+HDTARDesc,items,weapons,New,Manufactured with extensive use of aluminum alloys and synthetic materials. It is a semi-automatic version of the United States military M16 rifle place points into MachineGunner to craft better versions.
+
+HDS12Desc,items,weapons,New,kick Ass And Chew Bubble Gum with this Militart Grade Pump Shotgun Place points into Boomstick to craft a better version.
+
+BulletINCDesc,items,,,Ammo designed to set your target on fire.
