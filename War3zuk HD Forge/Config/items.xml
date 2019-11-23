@@ -44,7 +44,7 @@
 	<property name="CustomIcon" value="Steel Polish"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="MSteelPolish"/>
 	<property name="Weight" value="0"/>
 	<property name="Stacknumber" value="20000"/>
 	<property name="EconomicValue" value="45"/>
@@ -57,7 +57,7 @@
 	<property name="CustomIcon" value="Titanium Polish"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Msteel"/>
+	<property name="Material" value="MTitaniumPolish"/>
 	<property name="Weight" value="0"/>
 	<property name="Stacknumber" value="20000"/>
 	<property name="EconomicValue" value="65"/>
