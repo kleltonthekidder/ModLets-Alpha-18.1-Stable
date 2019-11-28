@@ -19,6 +19,8 @@ Ammo Supply 500 AMDesc,items,Ammo,New,You've Just found a bag of .500 AR AutoMax
 
 HDEDescitems,items,,,Used in the creation of Shock Ammo.
 
+HD1911Desc,items,weapons,New,The M1911 A1 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the 45 ACP Bullet
+
 HDDEDesc,items,weapons,New,The Desert Eagle is a semi automatic handgun notable for chambering the largest centerfire cartridge of any magazine fed self loading pistol place points into Gunslinger to craft better version.
 
 HDM4A1CDesc,items,weapons,New,The M4A1 carbine is a fully automatic variant of the basic M4 carbine intended for special operations use place points into MachineGunner to craft better versions.
@@ -60,3 +62,5 @@ DSSlugA10Desc,items,Ammo,New,Now that your ShotGun Slug Ammo has been converted.
 DSBreachSA10Desc,items,Ammo,New,Now that your ShotGun Breaching Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
 
 DMC10Desc,items,Ammo,New,Now that your Molotov Cocktail Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D45ACPR10Desc,items,Ammo,New,Now that your 45 ACP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,

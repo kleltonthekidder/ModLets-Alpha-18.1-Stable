@@ -16,6 +16,7 @@
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.2"/>
 		<item name="Ammo Supply DE50" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
 		<item name="HD Tactical AR Schematic" count="1" prob="0.1"/>
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.1"/>
 	</append>
@@ -30,6 +31,7 @@
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.2"/>
 		<item name="Ammo Supply DE50" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.1"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.1"/>
 	</append>
@@ -44,6 +46,7 @@
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.2"/>
 		<item name="Ammo Supply DE50" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='43']" >
@@ -56,6 +59,7 @@
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.2"/>
 		<item name="Ammo Supply DE50" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
 		<item name="HD Tactical AR Schematic" count="1" prob="0.1"/>
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.1"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.1"/>
@@ -72,6 +76,7 @@
 		<item name="Ammo Supply Shredder" count="1,2" prob="0.2"/>
 		<item name="Ammo Supply DE50" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
 		<item name="HD Tactical AR Schematic" count="1" prob="0.1"/>
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.1"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.1"/>
@@ -88,6 +93,7 @@
 		<item name="Ammo Supply Shredder" count="4,8" prob="0.2"/>
 		<item name="Ammo Supply DE50" count="2,4" prob="0.2"/>
 		<item name="Ammo Supply 500 Auto Max" count="2,4" prob="0.2"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
 		<item name="HD Tactical AR Schematic" count="1" prob="0.1"/>
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.1"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.1"/>
@@ -99,6 +105,7 @@
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.1"/>
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.1"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.1"/>
+		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
 	</append>
 
 </configs>
