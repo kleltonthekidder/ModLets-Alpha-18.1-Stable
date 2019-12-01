@@ -19,8 +19,6 @@
 	<recipe name="Class Miner"> <ingredient name="Starter Class" count="1"/></recipe>
 	
 	<recipe name="Class Rifleman"> <ingredient name="Starter Class" count="1"/></recipe>
-	
-    <recipe name="Starter Class"> <ingredient name="resourcePaper" count="1"/></recipe>
 
 </append>
 </configs>
