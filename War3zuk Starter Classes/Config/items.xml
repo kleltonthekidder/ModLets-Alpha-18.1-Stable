@@ -1,0 +1,201 @@
+<configs>
+	
+<append xpath="/items" >
+	
+<item name="Starter Class">
+	<property name="DisplayInfo" value="Name" />
+	<property name="CreativeMode"     value="None"/>
+	<property name="HoldType"         value="21"/>
+	<property name="Meshfile"         value="Items/Misc/bookPrefab"/>
+	<property name="DropMeshfile"     value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material"         value="Mpaper"/>
+	<property name="CustomIcon"       value="Starter Class"/>
+	<property name="Stacknumber"      value="1"/> 
+	<property name="EconomicValue"    value="600"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group"            value="Special Items"/>
+</item>
+
+<item name="Class Builder">
+	<property name="CustomIcon" value="Class Builder"/>
+	<property name="DescriptionKey" value="Class BuilderDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="Building Supply Flare,HD Wrench,armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,gunToolNailgun,resourceNail,meleeToolClawHammer,meleeToolSledgehammerSteel,meleeToolFireaxeSteel,meleeToolKnifeIron,resourceWood,woodFrameBlockVariantHelper,gunPistol"/>
+		<property name="Create_item_count" value="5,1,1,1,1,1,1,5,1,100,1,1,1,1,500,200,1,200"/>
+	</property>
+</item>
+
+<item name="Class Engineer">
+	<property name="CustomIcon" value="Class Engineer"/>
+	<property name="DescriptionKey" value="Class - EngineerDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="HD Lock Pick,armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,gunPistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunCrossbowIron,meleeToolWireTool,meleeToolKnifeMachete,meleeToolWrench,ammoGasCan,drinkJarCoffee,meleeToolStoneAxe"/>
+		<property name="Create_item_count" value="20,1,1,1,1,1,5,1,100,100,1,1,1,1,1000,25,1"/>
+	</property>
+</item>
+
+<item name="Class Farmer">
+	<property name="CustomIcon" value="Class Farmer"/>
+	<property name="DescriptionKey" value="Class FarmerDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="Food Supply Flare,HD Chainsaw,HD Xcalibur,armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,gunPistol,ammo9mmBulletBall,gunBowPrimitive,ammoArrowStone,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,HD Auger,HD Auger Schematic,meleeToolKnifeMachete,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
+		<property name="Create_item_count" value="3,1,1,1,1,1,1,1,5,1,150,1,150,10,10,2,2,1,1,1,20,1,1,1,1"/>
+	</property>
+</item>
+
+<item name="Class Gunman">
+	<property name="CustomIcon" value="Class Gunman"/>
+	<property name="DescriptionKey" value="Class GunmanDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="HD 1911,45 ACP Round,medicalBandage,armorMilitaryGloves,armorMilitaryHelmet,armorMilitaryBoots,armorMilitaryLegs,armorMilitaryVest,armorMilitarySetParts,drugPainkillers,gunSMG5,ammo9mmBulletHP,resourceRepairKit,gunSMG5Schematic"/>
+		<property name="Create_item_count" value="1,100,5,1,1,1,1,1,5,5,1,100,10,1"/>
+	</property>
+</item>
+
+<item name="Class Hunter">
+	<property name="CustomIcon" value="Class Hunter"/>
+	<property name="DescriptionKey" value="Class HunterDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="Ammo Supply Flare,armorLeatherBoots,armorLeatherPants,armorLeatherChest,armorLeatherGloves,armorLeatherHood,medicalBandage,drugPainkillers,armorLeatherSetSchematic,meleeToolKnifeMachete,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gunBowCompound,ammoArrowSteelAP,HD Mini Hatchet"/>
+		<property name="Create_item_count" value="3,1,1,1,1,1,5,10,1,1,1,1,150,1,150,1"/>
+	</property>
+</item>
+
+<item name="Class Mechanic">
+	<property name="CustomIcon" value="Class Mechanic"/>
+	<property name="DescriptionKey" value="Class MechanicDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,meleeToolKnifeMachete,meleeToolKnifeMacheteSchematic,meleeToolWrench,meleeToolWrenchSchematic,drinkJarCoffee,gun44Magnum,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
+		<property name="Create_item_count" value="1,1,1,1,1,5,1,1,1,1,20,1,100,1,1,1,1,1,1"/>
+	</property>
+</item>
+
+<item name="Class Medic">
+	<property name="CustomIcon" value="Class Medic"/>
+	<property name="DescriptionKey" value="Class MedicDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="Health Supply Flare,HD First Aid Kit,armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalFirstAidKit,medicalSplint,medicalBloodBag,drugAntibiotics,drugSteroids,drugFortBites,drinkJarPureMineralWater,medicalFirstAidKitSchematic,gunAK47Schematic,gunAK47,ammo762mmBulletBall"/>
+		<property name="Create_item_count" value="5,5,1,1,1,1,1,10,10,10,10,10,10,10,1,1,1,200"/>
+	</property>
+</item>
+
+<item name="Class Miner">
+	<property name="CustomIcon" value="Class Miner"/>
+	<property name="DescriptionKey" value="Class MinerDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,armorMiningHelmet,modArmorHelmetLight,drinkJarPureMineralWater,HD Forge,meleeToolPickaxeSteel,resourceForgedIron,resourceForgedSteel,HD Forge Schematic,toolBellowsSchematic,toolForgeCrucibleSchematic,toolAnvilSchematic,gunPumpShotgunSchematic,HD Spas 12,ammoShotgunShell,"/>
+		<property name="Create_item_count" value="1,1,1,1,1,5,1,1,10,2,1,100,100,1,1,1,1,1,1,150"/>
+	</property>
+</item>
+
+<item name="Class Rifleman">
+	<property name="CustomIcon" value="Class Rifleman"/>
+	<property name="DescriptionKey" value="Class RiflemanDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mpaper"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="Weight" value="0"/>
+	<property name="Group" value="Special Items"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0.5"/>
+		<property name="Use_time" value="1"/>
+		<property name="Sound_start" value="wrench_harvest"/>
+		<property name="Create_item" value="Donnas Fubar Stew,armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,armorIronGloves,armorIronHelmet,armorIronBoots,armorIronLegs,armorIronChest,armorIronSetSchematic,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,resourceRepairKit,gunPistolSchematic,HD Desert Eagle,Deagle Round"/>
+		<property name="Create_item_count" value="5,1,1,1,1,1,5,1,1,1,1,1,1,1,1,150,20,1,1,150"/>
+	</property>
+</item>
+
+				
+</append>
+</configs>
