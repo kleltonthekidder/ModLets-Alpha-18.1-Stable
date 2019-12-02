@@ -18,7 +18,7 @@
 
 <item name="Class Builder">
 	<property name="CustomIcon" value="Class Builder"/>
-	<property name="DescriptionKey" value="Class BuilderDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -31,14 +31,14 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,gunToolNailgun,resourceNail,meleeToolClawHammer,meleeToolSledgehammerSteel,meleeToolFireaxeSteel,meleeToolKnifeIron,resourceWood,woodFrameBlockVariantHelper,gunPistol,ammo9mmBulletBall"/>
-		<property name="Create_item_count" value="1,1,1,1,1,5,1,100,1,1,1,1,1000,200,1,200"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,gunToolNailgun,resourceNail,meleeToolClawHammer,meleeToolSledgehammerSteel,meleeToolFireaxeSteel,woodFrameBlockVariantHelper,gunPistol,ammo9mmBulletBall"/>
+		<property name="Create_item_count" value="5,5,5,5,2,2,2,1,100,1,1,1,200,1,200"/>
 	</property>
 </item>
 
 <item name="Class Engineer">
 	<property name="CustomIcon" value="Class Engineer"/>
-	<property name="DescriptionKey" value="Class - EngineerDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -51,14 +51,14 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,gunPistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunCrossbowIron,meleeToolWireTool,meleeToolKnifeMachete,meleeToolWrench,ammoGasCan,drinkJarCoffee,meleeToolStoneAxe"/>
-		<property name="Create_item_count" value="1,1,1,1,1,5,1,100,100,1,1,1,1,1000,25,1"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunPistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunCrossbowIron,meleeToolWireTool,meleeToolKnifeMachete,meleeToolWrench,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
+		<property name="Create_item_count" value="5,5,5,5,1,150,100,1,1,1,1,1000,25,1,1"/>
 	</property>
 </item>
 
 <item name="Class Farmer">
 	<property name="CustomIcon" value="Class Farmer"/>
-	<property name="DescriptionKey" value="Class FarmerDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -71,14 +71,14 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,gunPistol,ammo9mmBulletBall,gunBowPrimitive,ammoArrowStone,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolAuger,meleeToolAugerSchematic,meleeToolKnifeMachete,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
-		<property name="Create_item_count" value="1,1,1,1,1,5,1,150,1,150,10,10,2,2,1,1,1,20,1,1,1,1"/>
+		<property name="Create_item" value="gunPistol,ammo9mmBulletBall,gunBowPrimitive,ammoArrowStone,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolAuger,meleeToolAugerSchematic,meleeToolKnifeMachete,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
+		<property name="Create_item_count" value="1,150,1,150,10,10,2,2,1,1,1,20,1,1,1,1"/>
 	</property>
 </item>
 
 <item name="Class Gunman">
 	<property name="CustomIcon" value="Class Gunman"/>
-	<property name="DescriptionKey" value="Class GunmanDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -91,14 +91,14 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalBandage,armorMilitaryGloves,armorMilitaryHelmet,armorMilitaryBoots,armorMilitaryLegs,armorMilitaryVest,armorMilitarySetParts,drugPainkillers,gunSMG5,ammo9mmBulletHP,resourceRepairKit,gunSMG5Schematic"/>
-		<property name="Create_item_count" value="5,1,1,1,1,1,5,5,1,100,10,1"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,armorMilitaryGloves,armorMilitaryHelmet,armorMilitaryBoots,armorMilitaryLegs,armorMilitaryVest,armorMilitarySetParts,gunSMG5,ammo9mmBulletHP,gunSMG5Schematic"/>
+		<property name="Create_item_count" value="5,5,5,5,5,1,1,1,1,1,40,1,250,1"/>
 	</property>
 </item>
 
 <item name="Class Hunter">
 	<property name="CustomIcon" value="Class Hunter"/>
-	<property name="DescriptionKey" value="Class HunterDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -111,14 +111,14 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="armorLeatherBoots,armorLeatherPants,armorLeatherChest,armorLeatherGloves,armorLeatherHood,medicalBandage,drugPainkillers,armorLeatherSetSchematic,meleeToolKnifeMachete,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gunBowCompound,ammoArrowSteelAP,meleeToolStoneAxe"/>
-		<property name="Create_item_count" value="1,1,1,1,1,5,10,1,1,1,1,150,1,150,1"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,meleeToolKnifeMachete,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,modGunMeleeTheHunter,modGunScopeMedium"/>
+		<property name="Create_item_count" value="5,5,5,5,10,1,1,1,150,1,1"/>
 	</property>
 </item>
 
 <item name="Class Mechanic">
 	<property name="CustomIcon" value="Class Mechanic"/>
-	<property name="DescriptionKey" value="Class MechanicDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -131,14 +131,14 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,meleeToolKnifeMachete,meleeToolKnifeMacheteSchematic,meleeToolWrench,meleeToolWrenchSchematic,drinkJarCoffee,gun44Magnum,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
-		<property name="Create_item_count" value="1,1,1,1,1,5,1,1,1,1,20,1,100,1,1,1,1,1,1"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeToolKnifeMachete,meleeToolKnifeMacheteSchematic,meleeToolWrench,meleeToolWrenchSchematic,drinkJarCoffee,gun44Magnum,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,20,1,150,1,1,1,1,1,1"/>
 	</property>
 </item>
 
 <item name="Class Medic">
 	<property name="CustomIcon" value="Class Medic"/>
-	<property name="DescriptionKey" value="Class MedicDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -151,14 +151,14 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalFirstAidKit,medicalSplint,medicalBloodBag,drugAntibiotics,drugSteroids,drugFortBites,drinkJarPureMineralWater,medicalFirstAidKitSchematic,gunAK47Schematic,gunAK47,ammo762mmBulletBall"/>
-		<property name="Create_item_count" value="1,1,1,1,1,10,10,10,10,10,10,10,1,1,1,200"/>
+		<property name="Create_item" value="medicalFirstAidKit,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletHP,medicalAloeCream,medicalPlasterCast"/>
+		<property name="Create_item_count" value="5,5,5,5,5,5,5,5,1,1,1,150,5,5"/>
 	</property>
 </item>
 
 <item name="Class Miner">
 	<property name="CustomIcon" value="Class Miner"/>
-	<property name="DescriptionKey" value="Class MinerDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -171,14 +171,14 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,armorMiningHelmet,modArmorHelmetLight,drinkJarPureMineralWater,forge,meleeToolPickaxeSteel,resourceForgedIron,resourceForgedSteel,forgeSchematic,toolBellowsSchematic,toolForgeCrucibleSchematic,toolAnvilSchematic,gunPumpShotgunSchematic,gunPumpShotgun,ammoShotgunShell,"/>
-		<property name="Create_item_count" value="1,1,1,1,1,5,1,1,10,2,1,100,100,1,1,1,1,1,1,150"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,armorMiningHelmet,modArmorHelmetLight,forge,meleeToolPickaxeSteel,resourceForgedIron,resourceForgedSteel,forgeSchematic,toolBellowsSchematic,toolForgeCrucibleSchematic,toolAnvilSchematic,gunPumpShotgunSchematic,gunPumpShotgun,ammoShotgunShell,"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,1,1,1,100,100,1,1,1,1,1,1,150"/>
 	</property>
 </item>
 
 <item name="Class Rifleman">
 	<property name="CustomIcon" value="Class Rifleman"/>
-	<property name="DescriptionKey" value="Class RiflemanDesc"/>
+	<property name="DescriptionKey" value="ClassDesc"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
@@ -191,8 +191,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="armorClothPants,armorClothJacket,armorClothBoots,armorClothGloves,armorClothHat,medicalBandage,armorIronGloves,armorIronHelmet,armorIronBoots,armorIronLegs,armorIronChest,armorIronSetSchematic,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,resourceRepairKit,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletHP"/>
-		<property name="Create_item_count" value="1,1,1,1,1,5,1,1,1,1,1,1,1,1,150,20,1,1,150"/>
+		<property name="Create_item" value="medicalBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,armorIronGloves,armorIronHelmet,armorIronBoots,armorIronLegs,armorIronChest,armorIronSetSchematic,gunHuntingRifleSchematic,gunHuntingRifle,ammo762mmBulletBall,gun44MagnumSchematic,gun44Magnum,ammo44MagnumBulletHP"/>
+		<property name="Create_item_count" value="5,5,5,5,1,1,1,1,1,1,1,1,150,1,1,150"/>
 	</property>
 </item>
 				
