@@ -1,4 +1,11 @@
 Key,Source,Context,Changes,English
+
+HDM134MBDesc,items,,,This is the Barrel part of the HD Minigun.
+
+HDM134MPDesc,items,,,This is the Housing & Parts of the HD Minigun.
+
+HDM134MMDesc,items,,,This is the Motor & other moving parts to the HD Minigun.
+
 Ammo Supply 9mmDesc,items,Ammo,New,You've Just found a bag of ammo !!
 
 Ammo Supply 44MagDesc,items,Ammo,New,You've Just found a bag of ammo !!

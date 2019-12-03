@@ -164,7 +164,7 @@
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD M134 MiniGun Barrel Schematic"/>
-	<property name="DescriptionKey" value="CMDesc"/>
+	<property name="DescriptionKey" value="HDM134MBDesc"/>
 </item>
 
 <item name="HD M134 MiniGun Parts">
@@ -178,7 +178,7 @@
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD M134 MiniGun Parts Schematic"/>
-	<property name="DescriptionKey" value="CMDesc"/>
+	<property name="DescriptionKey" value="HDM134MPDesc"/>
 </item>
 
 <item name="HD M134 MiniGun Motor">
@@ -192,7 +192,7 @@
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="UnlockedBy" value="HD M134 MiniGun Motor Schematic"/>
-	<property name="DescriptionKey" value="CMDesc"/>
+	<property name="DescriptionKey" value="HDM134MMDesc"/>
 </item>
 
 <item name="HD Desert Eagle">
