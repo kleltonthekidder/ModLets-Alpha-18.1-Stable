@@ -242,6 +242,37 @@
 	<ingredient name="45 ACP Round" count="10"/>
 </recipe>
 
+<recipe name="HD M134 MiniGun Barrel" craft_area="workbench" count="1" craft_time = "30" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="gunAk47Parts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD M134 MiniGun Parts" craft_area="workbench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD M134 MiniGun Motor" craft_area="workbench" count="1" craft_time = "100" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD M134 MiniGun" craft_area="workbench" count="1" craft_time = "180" tags="perkMachineGunner">
+	<ingredient name="HD M134 MiniGun Barrel" count="6"/>
+	<ingredient name="HD M134 MiniGun Parts" count="1"/>
+	<ingredient name="HD M134 MiniGun Motor" count="1"/>
+	<ingredient name="modDyeBlack" count="2"/>
+</recipe>
+
 <!--  Valmar Stallionsden War3zuk EDIT -->
 
 <recipe name="Hollow Tip" count="2"  craft_time = "0.5" tags="workbench" >
