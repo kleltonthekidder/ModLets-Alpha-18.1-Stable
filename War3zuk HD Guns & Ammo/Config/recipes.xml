@@ -24,7 +24,7 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
-<recipe name="HD Spas 12" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkBoomstick">
+<recipe name="HD Mossberg 500" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkBoomstick">
 	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="45"/>
 	<ingredient name="resourceDuctTape" count="10"/>
@@ -271,6 +271,43 @@
 	<ingredient name="HD M134 MiniGun Parts" count="1"/>
 	<ingredient name="HD M134 MiniGun Motor" count="1"/>
 	<ingredient name="modDyeBlack" count="2"/>
+</recipe>
+
+<recipe name="HDGun Oil" count="1" craft_time = "2">
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceOil" count="1"/>
+</recipe>
+
+<recipe name="RepairKitHandGuns" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="gunPistolParts" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="HDGun Oil" count="1"/>
+</recipe>
+
+<recipe name="RepairKitAutomaticRifles" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="gunAk47Parts" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="HDGun Oil" count="1"/>
+</recipe>
+
+<recipe name="RepairKitShotGuns" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="HDGun Oil" count="1"/>
+</recipe>
+
+<recipe name="RepairKitHuntingRifles" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="gunHuntingRifleParts" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="HDGun Oil" count="1"/>
 </recipe>
 
 <!--  Valmar Stallionsden War3zuk EDIT -->

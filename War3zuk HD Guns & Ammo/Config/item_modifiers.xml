@@ -27,21 +27,15 @@
 		</item_property_overrides>
 	</append>
 	
-	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
-		<item_property_overrides name="HD Spas 12">
-			<property name="Sound_start" value="silence1"/>
-		</item_property_overrides>
-	</append>
-	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
-		<item_property_overrides name="HD Spas 12">
+		<item_property_overrides name="HD Mossberg 500">
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="ScopeCameraOffset" value="0.0001,-0.013,0.35"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
-		<item_property_overrides name="HD Spas 12">
+		<item_property_overrides name="HD Mossberg 500">
 			<property name="CrosshairOnAim" value="false"/>
 		</item_property_overrides>
 	</append>
