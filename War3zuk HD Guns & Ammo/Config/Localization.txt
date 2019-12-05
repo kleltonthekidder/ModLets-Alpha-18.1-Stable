@@ -2,13 +2,17 @@ Key,Source,Context,Changes,English
 
 HDGunOilDesc,itmes,,,HDGun Oil is required in the making of ALL specialised Repair kits.
 
-RepairKitHandGuns,items,Item,KgNone,HD RepairKit HandGuns,This is a specialised version of the Standard Repair Kit designed to repair Pistol Magnum HD Desert Eagle.
+RepairKitHandGuns,items,Item,KgNone,HD RepairKit Hand Guns,
+RepairKitHandGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hand Guns.
 
-RepairKitAutomaticRifles,items,Item,KgNone,HD RepairKit Automatic Rifles,This is a specialised version of the Standard Repair Kit designed to repair SMG5 AK47 M60.
+RepairKitAutomaticRifles,items,Item,KgNone,HD RepairKit Automatic Rifles,
+RepairKitAutomaticRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Automatic Guns.
 
-RepairKitShotGuns,items,Item,KgNone,HD RepairKit ShotGuns,This is a specialised version of the Standard Repair Kit designed to repair Double Barrel ShotGun Single Barrel ShotGun.
+RepairKitShotGuns,items,Item,KgNone,HD RepairKit Shot Guns,
+RepairKitShotGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Shot Guns.
 
-RepairKitHuntingRifles,items,Item,KgNone,HD RepairKit Hunting Rifles,This is a specialised version of the Standard Repair Kit designed to repair Hunting Rifle Snipe Rifle.
+RepairKitHuntingRifles,items,Item,KgNone,HD RepairKit Hunting Rifles,
+RepairKitHuntingRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hunting & Sniper Rifles.
 
 HDM134MBDesc,items,,,This is the Barrel part of the HD Minigun.
 
