@@ -3,12 +3,18 @@
 	<set xpath="/blocks/block[@name='pouredConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">1</set>
 	<set xpath="/blocks/block[@name='pouredRConcreteMaster']/property[@name='UpgradeRated.Rate']/@value">2</set>
 	
-	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">20</set>
-	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">25</set>
-	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">30</set>
-	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">35</set>
-	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">40</set>
-	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">45</set>
+	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">15</set>
+	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">20</set>
+	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">25</set>
+	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">30</set>
+	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">35</set>
+	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">40</set>
+	
+	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">45</set>
+	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@name">resourceIronFragment</set>
+
+	<set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">45</set>
+	<set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceScrapIron']/@name">resourceIronFragment</set>
 	
 <append xpath="/blocks">
 
@@ -26,7 +32,7 @@
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ParticleName" value="forge"/>
-	<property name="ParticleOffset" value="0.5,0,0.5"/>
+	<property name="ParticleOffset" value="0.5,10,0.5"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Stacknumber" value="10"/>
 	<property name="HeatMapStrength" value="3"/>
@@ -34,9 +40,8 @@
 	<property name="HeatMapFrequency" value="60"/>
 	<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
 	<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
-
 	<property class="Workstation">
-		<property name="CraftingAreaRecipes" value="forge"/>
+		<property name="CraftingAreaRecipes" value="forge,HD Forge"/>
 		<property name="Modules" value="tools,output,fuel,material_input"/>
 		<property name="InputMaterials" value="iron,brass,lead,glass,stone,clay"/>
 	</property>
@@ -46,7 +51,6 @@
 	<property name="CraftSound" value="forge_smelt_click"/>
 	<property name="CraftCompleteSound" value="forge_item_complete"/>
 	<property name="WorkstationJournalTip" value="forgeTip"/>
-
 	<property class="RepairItems">
 		<property name="resourceRockSmall" value="50"/>
 		<property name="resourceClayLump" value="60"/>
@@ -157,6 +161,7 @@
 	<property name="SortOrder1" value="40q0"/>
 	<property name="SortOrder2" value="0002"/>
 </block>
+
 </append>
 
 	<append xpath="/blocks/block[@name='stainlessSteelArch']"><property class="UpgradeBlock"> <property name="ToBlock" value="Titanium Steel Arch"/> </property></append>
@@ -812,7 +817,7 @@
 	<property name="Class" value="TrunkTip"/>
 	<property name="BlockTag" value="Spike"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="Damage" value="50"/>
+	<property name="Damage" value="45"/>
 	<property name="Damage_received" value="10"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="MSteelPolish"/>
@@ -840,7 +845,7 @@
 	<property name="Class" value="TrunkTip"/>
 	<property name="BlockTag" value="Spike"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="Damage" value="55"/>
+	<property name="Damage" value="50"/>
 	<property name="Damage_received" value="10"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="MTitaniumPolish"/>
@@ -862,6 +867,414 @@
 	<property name="DescriptionKey" value="woodLogSpike1Desc"/>
 	<property name="FilterTags" value="fdecor,ftraps"/>
 	<property name="SortOrder1" value="70g0"/>
+</block>
+
+</append>
+
+<append xpath="/blocks/block[@name='steelLogSpike6']">
+	<property class="UpgradeBlock">
+	<property name="ToBlock" value="SteelPolishLogSpike7"/>
+	<property name="Item" value="Steel Polish"/>
+	<property name="ItemCount" value="10"/>
+	<property name="UpgradeHitCount" value="4"/>
+	</property>
+</append>
+	
+<append xpath="/blocks/block[@name='SteelPolishLogSpike7']">
+	<property class="UpgradeBlock">
+	<property name="ToBlock" value="TitaniumPolishLogSpike8"/>
+	<property name="Item" value="Titanium Polish"/>
+	<property name="ItemCount" value="10"/>
+	<property name="UpgradeHitCount" value="4"/>
+	</property>
+</append>
+
+<append xpath="/blocks/block[@name='concreteTunnelCenter']">
+	<property class="UpgradeBlock">
+	<property name="ToBlock" value="RconcreteTunnelCenter"/>
+	<property name="Item" value="resourceConcreteMix"/>
+	<property name="ItemCount" value="20"/>
+	<property name="UpgradeHitCount" value="4"/>
+	</property>
+</append>
+
+<append xpath="/blocks/block[@name='concreteTunnelCorner']">
+	<property class="UpgradeBlock">
+	<property name="ToBlock" value="RconcreteTunnelCorner"/>
+	<property name="Item" value="resourceConcreteMix"/>
+	<property name="ItemCount" value="20"/>
+	<property name="UpgradeHitCount" value="4"/>
+	</property>
+</append>
+
+<append xpath="/blocks/block[@name='concreteTubeCenter']">
+	<property class="UpgradeBlock">
+	<property name="ToBlock" value="RconcreteTubeCenter"/>
+	<property name="Item" value="resourceConcreteMix"/>
+	<property name="ItemCount" value="20"/>
+	<property name="UpgradeHitCount" value="4"/>
+	</property>
+</append>
+
+<append xpath="/blocks/block[@name='concreteTubeCorner']">
+	<property class="UpgradeBlock">
+	<property name="ToBlock" value="RconcreteTubeCorner"/>
+	<property name="Item" value="resourceConcreteMix"/>
+	<property name="ItemCount" value="20"/>
+	<property name="UpgradeHitCount" value="4"/>
+	</property>
+</append>
+
+<append xpath="/blocks">
+	
+<block name="RconcreteNoUpgradeMaster">
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="DescriptionKey" value="concreteNoUpgradeGroupDesc"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="MrConcrete"/>
+	<property name="Texture" value="8"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="RepairItems"> <property name="resourceConcreteMix" value="8"/> </property>
+	<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="50"/>
+	<property name="EconomicBundleSize" value="20"/>
+	<property name="FilterTags" value="fbuilding,fconcrete"/>
+	<property name="SortOrder1" value="40k0"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="steelNoUpgradeMaster">
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="DescriptionKey" value="steelBlockGroupDesc"/>
+	<property name="Material" value="Msteel"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Texture" value="355,355,356,356,356,356"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="RepairItems"> <property name="resourceForgedSteel" value="10"/> </property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+	<drop event="Harvest" name="resourceScrapIron" count="15" prob="1" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="160"/>
+	<property name="DescriptionKey" value="steelBlockGroupDesc"/>
+	<property name="FilterTags" value="fbuilding,fsteel"/>
+	<property name="SortOrder1" value="40p0"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="stainlessSteelNoUpgradeMaster">
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="DescriptionKey" value="stainlessSteelBlockGroupDesc"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="MSteelPolish"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Texture" value="191"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="RepairItems"> <property name="Steel Polish" value="10"/> </property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="FilterTags" value="fbuilding,fsteel"/>
+	<property name="SortOrder1" value="40q0"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="TitaniumNoUpgradeMaster">
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="DescriptionKey" value="stainlessSteelBlockGroupDesc"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="MTitaniumPolish"/>
+	<property name="PassThroughDamage" value="true"/>
+	<property name="Texture" value="191"/>
+	<property name="CreativeMode" value="None"/>
+	<property class="RepairItems"> <property name="Titanium Polish" value="5"/> </property>
+	<drop event="Harvest" name="resourceScrapIron" count="15" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="FilterTags" value="fbuilding,fsteel"/>
+	<property name="SortOrder1" value="40q0"/>
+	<property name="SortOrder2" value="0002"/>
+</block>
+
+<block name="RconcreteTunnelCenter">
+	<property name="CustomIcon" value="concreteTunnelCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="RconcreteNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tunnel_center"/> <property name="SortOrder2" value="0505"/>
+	<property name="Texture" value="315"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="SteelTunnelCenter"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+</block>
+
+<block name="RconcreteTunnelCorner">
+	<property name="CustomIcon" value="concreteTunnelCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="RconcreteNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tunnel_corner"/> <property name="SortOrder2" value="0505"/>
+	<property name="Texture" value="315"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="SteelTunnelCorner"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+</block>
+
+<block name="RconcreteTubeCenter">
+	<property name="CustomIcon" value="concreteTubeCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="RconcreteNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tube_center"/> <property name="SortOrder2" value="0509"/>
+	<property name="Texture" value="315"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="SteelTubeCenter"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+</block>
+
+<block name="RconcreteTubeCorner">
+	<property name="CustomIcon" value="concreteTubeCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="RconcreteNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tube_corner"/> <property name="SortOrder2" value="0509"/>
+	<property name="Texture" value="315"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="SteelTubeCorner"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_concrete"/>
+</block>
+
+<block name="SteelTunnelCenter">
+	<property name="CustomIcon" value="concreteTunnelCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="steelNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tunnel_center"/> <property name="SortOrder2" value="0505"/>
+	<property name="Texture" value="355,355,356,356,356,356"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="stainlessSteelTunnelCenter"/>
+		<property name="Item" value="Steel Polish"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+</block>
+
+<block name="SteelTunnelCorner">
+	<property name="CustomIcon" value="concreteTubeCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="steelNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tunnel_corner"/> <property name="SortOrder2" value="0505"/>
+	<property name="Texture" value="355,355,356,356,356,356"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="stainlessSteelTunnelCorner"/>
+		<property name="Item" value="Steel Polish"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+</block>
+
+<block name="SteelTubeCenter">
+	<property name="CustomIcon" value="concreteTubeCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="steelNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tube_center"/> <property name="SortOrder2" value="0509"/>
+	<property name="Texture" value="355,355,356,356,356,356"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="stainlessSteelTubeCenter"/>
+		<property name="Item" value="Steel Polish"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+</block>
+
+<block name="SteelTubeCorner">
+	<property name="CustomIcon" value="concreteTubeCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="steelNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tube_corner"/> <property name="SortOrder2" value="0509"/>
+	<property name="Texture" value="355,355,356,356,356,356"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="stainlessSteelTubeCorner"/>
+		<property name="Item" value="Steel Polish"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+</block>
+
+<block name="stainlessSteelTunnelCenter">
+	<property name="CustomIcon" value="concreteTunnelCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="stainlessSteelNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tunnel_center"/> <property name="SortOrder2" value="0505"/>
+	<property name="Texture" value="191"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="TitaniumTunnelCenter"/>
+		<property name="Item" value="Titanium Polish"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+</block>
+
+<block name="stainlessSteelTunnelCorner">
+	<property name="CustomIcon" value="concreteTunnelCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="stainlessSteelNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tunnel_corner"/> <property name="SortOrder2" value="0505"/>
+	<property name="Texture" value="191"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="TitaniumTunnelCorner"/>
+		<property name="Item" value="Titanium Polish"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+</block>
+
+<block name="stainlessSteelTubeCenter">
+	<property name="CustomIcon" value="concreteTubeCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="stainlessSteelNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tube_center"/> <property name="SortOrder2" value="0509"/>
+	<property name="Texture" value="191"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="TitaniumTubeCenter"/>
+		<property name="Item" value="Titanium Polish"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+</block>
+
+<block name="stainlessSteelTubeCorner">
+	<property name="CustomIcon" value="concreteTubeCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="stainlessSteelNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tube_corner"/> <property name="SortOrder2" value="0509"/>
+	<property name="Texture" value="191"/>
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="TitaniumTubeCorner"/>
+		<property name="Item" value="Titanium Polish"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="CustomUpgradeSound" value="place_block_metal"/>
+</block>
+
+<block name="TitaniumTunnelCenter">
+	<property name="CustomIcon" value="concreteTunnelCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="TitaniumNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tunnel_center"/> <property name="SortOrder2" value="0505"/>
+	<property name="Texture" value="307"/>
+	<property name="DowngradeBlock" value="stainlessSteelTunnelCenter"/>
+</block>
+
+<block name="TitaniumTunnelCorner">
+	<property name="CustomIcon" value="concreteTunnelCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="TitaniumNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tunnel_corner"/> <property name="SortOrder2" value="0505"/>
+	<property name="Texture" value="307"/>
+	<property name="DowngradeBlock" value="stainlessSteelTunnelCorner"/>
+</block>
+
+<block name="TitaniumTubeCenter">
+	<property name="CustomIcon" value="concreteTubeCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="TitaniumNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tube_center"/> <property name="SortOrder2" value="0509"/>
+	<property name="Texture" value="307"/>
+	<property name="DowngradeBlock" value="stainlessSteelTubeCenter"/>
+</block>
+
+<block name="TitaniumTubeCorner">
+	<property name="CustomIcon" value="concreteTubeCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="TitaniumNoUpgradeMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="tube_corner"/> <property name="SortOrder2" value="0509"/>
+	<property name="Texture" value="307"/>
+	<property name="DowngradeBlock" value="stainlessSteelTubeCorner"/>
+</block>
+
+<block name="HD Concrete Barrier">
+	<property name="CustomIcon" value="concreteBarrier1" />
+	<property name="Extends" value="TitaniumNoUpgradeMaster"/>
+	<property name="Texture" value="307"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Industrial/concrete_barrier_2Prefab"/>
+	<property name="Material" value="MTitaniumPolish"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,1,1"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="FilterTags" value="fbuilding,fdecor,fother,fwindows,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0051"/>
+</block>
+
+<block name="BulletGlassTunnelCenter">
+	<property name="CustomIcon" value="concreteTunnelCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="glassBulletproofMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Texture" value="333"/>
+	<property name="LightOpacity" value="10"/>
+	<property name="Model" value="tunnel_center"/> <property name="SortOrder2" value="0505"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="170"/>
+</block>
+
+<block name="BulletGlassTunnelCorner">
+	<property name="CustomIcon" value="concreteTunnelCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="glassBulletproofMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Texture" value="333"/>
+	<property name="LightOpacity" value="10"/>
+	<property name="Model" value="tunnel_corner"/> <property name="SortOrder2" value="0505"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="170"/>
+</block>
+
+<block name="BulletGlassTubeCenter">
+	<property name="CustomIcon" value="concreteTubeCenter"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="glassBulletproofMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Texture" value="333"/>
+	<property name="LightOpacity" value="10"/>
+	<property name="Model" value="tube_center"/> <property name="SortOrder2" value="0509"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="170"/>
+</block>
+
+<block name="BulletGlassTubeCorner">
+	<property name="CustomIcon" value="concreteTubeCorner"/> <property name="CustomIconTint" value="#1F2020"/>
+	<property name="Extends" value="glassBulletproofMaster"/>
+	<property name="Shape" value="New"/>
+	<property name="Texture" value="333"/>
+	<property name="LightOpacity" value="10"/>
+	<property name="Model" value="tube_corner"/> <property name="SortOrder2" value="0509"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="170"/>
 </block>
 
 </append>
