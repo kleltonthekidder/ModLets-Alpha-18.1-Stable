@@ -32,6 +32,14 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
+<recipe name="HD Spas 12" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkBoomstick">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="45"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="25"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
 <recipe name="HD Mossberg 500" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkBoomstick">
 	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="45"/>

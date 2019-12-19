@@ -863,6 +863,17 @@
 	</effect_group>
 </item>
 
+<item name="HD Spas 12 Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Spas 12 Schematic"/>
+	<property name="Unlocks" value="HD Spas 12"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+	</effect_group>
+</item>
+
 <item name="9mm Bullet SH">
 	<property name="CustomIcon" value="9mm Bullet SH" />
 	<property name="Extends" value="ammo9mmBulletBall"/>
