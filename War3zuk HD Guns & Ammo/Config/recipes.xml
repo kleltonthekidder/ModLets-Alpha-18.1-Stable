@@ -1,16 +1,24 @@
 <configs>
 	
 	 <append xpath="/recipes">
-	
+		 
+<recipe name="HD 1911" craft_area="workbench" count="1" craft_time = "120" tags="perkGunslinger">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
 <recipe name="HD Desert Eagle" craft_area="workbench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
-	<ingredient name="resourceForgedSteel" count="75"/>
+	<ingredient name="resourceForgedSteel" count="55"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="12"/>
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
 <recipe name="HD M4A1 Carbine" craft_area="workbench" count="1" craft_time = "120" tags="learnable,perkMachineGunner">
-	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceMechanicalParts" count="50"/>
 	<ingredient name="resourceDuctTape" count="30"/>
 	<ingredient name="resourceScrapPolymers" count="30"/>
@@ -18,7 +26,7 @@
 </recipe>
 
 <recipe name="HD Tactical AR" craft_area="workbench" count="1"  craft_time = "90" tags="learnable,perkMachineGunner">
-	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceForgedIron" count="160"/>
 	<ingredient name="resourceMechanicalParts" count="35"/>
 	<ingredient name="resourceScrapPolymers" count="25"/>
 	<ingredient name="resourceSpring" count="10"/>
@@ -32,16 +40,39 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Electrolyte" count="50" craft_time = "10" >
-	<ingredient name="carBattery" count="1"/>
+<recipe name="HD M134 MiniGun" craft_area="workbench" count="1" craft_time = "180" tags="perkMachineGunner">
+	<ingredient name="HD M134 MiniGun Barrel" count="6"/>
+	<ingredient name="HD M134 MiniGun Parts" count="1"/>
+	<ingredient name="HD M134 MiniGun Motor" count="1"/>
+	<ingredient name="modDyeBlack" count="2"/>
 </recipe>
 
-<recipe name="HD 1911" craft_area="workbench" count="1" craft_time = "120" tags="learnable,perkGunslinger">
-	<ingredient name="resourceForgedIron" count="25"/>
+<recipe name="HD M134 MiniGun Barrel" craft_area="workbench" count="1" craft_time = "30" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
-	<ingredient name="resourceDuctTape" count="5"/>
-	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="gunAk47Parts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
 	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD M134 MiniGun Parts" craft_area="workbench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD M134 MiniGun Motor" craft_area="workbench" count="1" craft_time = "100" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Electrolyte" count="50" craft_time = "10" >
+	<ingredient name="carBattery" count="1"/>
 </recipe>
 
 <recipe name="45 ACP Round" count="1" craft_area="workbench">
@@ -240,37 +271,6 @@
 
 <recipe name="Disassemble 45 ACP Round 10" count="1" craft_time = "0.5" >
 	<ingredient name="45 ACP Round" count="10"/>
-</recipe>
-
-<recipe name="HD M134 MiniGun Barrel" craft_area="workbench" count="1" craft_time = "30" tags="learnable,perkMachineGunner">
-	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="10"/>
-	<ingredient name="gunAk47Parts" count="5"/>
-	<ingredient name="resourceScrapPolymers" count="10"/>
-	<ingredient name="resourceSpring" count="5"/>
-</recipe>
-
-<recipe name="HD M134 MiniGun Parts" craft_area="workbench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
-	<ingredient name="resourceForgedIron" count="100"/>
-	<ingredient name="resourceMechanicalParts" count="100"/>
-	<ingredient name="resourceDuctTape" count="20"/>
-	<ingredient name="resourceScrapPolymers" count="30"/>
-	<ingredient name="resourceSpring" count="20"/>
-</recipe>
-
-<recipe name="HD M134 MiniGun Motor" craft_area="workbench" count="1" craft_time = "100" tags="learnable,perkMachineGunner">
-	<ingredient name="resourceForgedIron" count="100"/>
-	<ingredient name="resourceMechanicalParts" count="100"/>
-	<ingredient name="resourceDuctTape" count="10"/>
-	<ingredient name="smallEngine" count="1"/>
-	<ingredient name="resourceSpring" count="10"/>
-</recipe>
-
-<recipe name="HD M134 MiniGun" craft_area="workbench" count="1" craft_time = "180" tags="perkMachineGunner">
-	<ingredient name="HD M134 MiniGun Barrel" count="6"/>
-	<ingredient name="HD M134 MiniGun Parts" count="1"/>
-	<ingredient name="HD M134 MiniGun Motor" count="1"/>
-	<ingredient name="modDyeBlack" count="2"/>
 </recipe>
 
 <recipe name="HDGun Oil" count="1" craft_time = "2">

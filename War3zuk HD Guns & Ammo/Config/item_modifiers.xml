@@ -1,29 +1,47 @@
 <configs>
 
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
-		<item_property_overrides name="HD Desert Eagle">
+		<item_property_overrides name="HD 1911">
 			<property name="CrosshairOnAim" value="true"/>
-			<property name="BarrelOffset" value="0,0.05,0.05"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
 		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0,-0.040,0"/>
+			<property name="ScopeCameraOffset" value="0.0001,-0.045,0.05"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
 		<item_property_overrides name="HD Desert Eagle">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="true"/>
+			<property name="BarrelOffset" value="0,0.01,0.01"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD Spas 12">
+			<property name="Sound_start" value="silence1"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
-		<item_property_overrides name="HD M4A1 Carbine">
+		<item_property_overrides name="HD Spas 12">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0.0005,-0.045,.35"/>
+			<property name="ScopeCameraOffset" value="0.0001,-0.013,0.35"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
+		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="false"/>
 		</item_property_overrides>
 	</append>
 	
@@ -43,7 +61,20 @@
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
 		<item_property_overrides name="HD Tactical AR">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0.00001,-0.008,0.10"/>
+			<property name="ScopeCameraOffset" value="0.00001,-0.003,0.10"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="HD M4A1 Carbine">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.00,0.001,.40"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD M4A1 Carbine">
+			<property name="Sound_start" value="silence4"/>
 		</item_property_overrides>
 	</append>
 	
