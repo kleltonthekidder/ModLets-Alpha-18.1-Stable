@@ -52,6 +52,8 @@ HDM500Desc,items,weapons,New,kick Ass And Chew Bubble Gum with this Militart Gra
 
 BulletINCDesc,items,,,Ammo designed to set your target on fire.
 
+BulletSHDesc,items,,,Ammo designed to Shock your target.
+
 D9A10Desc,items,Ammo,New,Now that your 9mm Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
 
 DHP9A10Desc,items,Ammo,New,Now that your 9mm HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
