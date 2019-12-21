@@ -6,6 +6,15 @@
 		</item_property_overrides>
 	</append>
 	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
+		<item_property_overrides name="HD 1911">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0.0000,0000,0.0000"/>
+			<property name="SideScale" value="1,1,1"/>
+			<property name="SideRotation" value="0,0,0"/>
+		</item_property_overrides>
+	</append>
+	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
 		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="false"/>

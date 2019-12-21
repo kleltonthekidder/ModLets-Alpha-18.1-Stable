@@ -79,11 +79,11 @@
 	
 <item name="HD 1911">
 	<property name="DescriptionKey" value="HD1911Desc"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,sideAttachments,smallTopAttachments,barrelAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="CustomIcon" value="HD 1911"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HDM1911A.unity3d?HDM1911A.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD M1911A.unity3d?HD M1911A.Prefab"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitHandGuns"/>
 	<property name="DegradationBreaksAfter" value="false"/>
