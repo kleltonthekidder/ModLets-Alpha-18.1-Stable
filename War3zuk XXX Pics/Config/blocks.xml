@@ -13,7 +13,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -31,7 +33,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -49,7 +53,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -67,7 +73,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -85,7 +93,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -103,7 +113,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -121,7 +133,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -139,7 +153,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -157,7 +173,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
@@ -175,7 +193,9 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
-	<drop event="Destroy" name="resourceWood" count="1,2"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="5,10"/>
+	<drop event="Destroy" name="resourceWood" count="5,10"/>
+	<drop event="Destroy" name="resourceNail" count="1,2"/>
 	<property name="FilterTags" value="fdecor,fother"/>
 	<property name="SortOrder1" value="7000"/>
 	<property name="SortOrder2" value="0002"/>
