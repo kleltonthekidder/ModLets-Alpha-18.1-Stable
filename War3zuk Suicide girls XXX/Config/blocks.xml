@@ -9,7 +9,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 001.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 001.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -29,7 +29,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 002.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 002.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -49,7 +49,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 003.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 003.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -69,7 +69,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 004.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 004.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -89,7 +89,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 005.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 005.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -109,7 +109,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 006.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 006.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -129,7 +129,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 007.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 007.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -149,7 +149,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 008.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 008.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -169,7 +169,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 009.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 009.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -189,7 +189,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?HD Suicide girls 010.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/War3zuk Suicide girls XXX.unity3d?Suicide girls 010.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
