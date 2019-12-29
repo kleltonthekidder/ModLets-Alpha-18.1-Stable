@@ -20,6 +20,7 @@
 		<item name="HD Tactical AR Schematic" count="1" prob="0.05"/>
 		<item name="HD M4A1 Carbine Schematic" count="1" prob="0.05"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
+		<item name="HD Arctic Warefare Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
@@ -36,6 +37,7 @@
 		<item name="HD Desert Eagle Schematic" count="1" prob="0.05"/>
 		<item name="HD Mossberg 500 Schematic" count="1" prob="0.05"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
+		<item name="HD Arctic Warefare Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
@@ -70,6 +72,7 @@
 		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.05"/>
 		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.05"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
+		<item name="HD Arctic Warefare Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
@@ -91,6 +94,7 @@
 		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.05"/>
 		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.05"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
+		<item name="HD Arctic Warefare Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
@@ -112,6 +116,7 @@
 		<item name="HD M134 MiniGun Parts Schematic" count="1" prob="0.05"/>
 		<item name="HD M134 MiniGun Motor Schematic" count="1" prob="0.05"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
+		<item name="HD Arctic Warefare Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
@@ -121,6 +126,7 @@
 		<item name="HD Mossberg 500 Schematic" count="1" prob="0.05"/>
 		<item name="Ammo Supply 45 ACP" count="2,4" prob="0.2"/>
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
+		<item name="HD Arctic Warefare Schematic" count="1" prob="0.01"/>
 	</append>
 
 </configs>

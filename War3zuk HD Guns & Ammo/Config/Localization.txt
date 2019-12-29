@@ -1,5 +1,7 @@
 Key,Source,Context,Changes,English
 
+HDAWarDesc,items,,,The Accuracy International Arctic Warfare rifle was designed and manufactured by the British company Accuracy International It uses the .50 BGM Rounds And can be improved by adding points into the DeadEye Perk.
+
 HDGunOilDesc,itmes,,,HDGun Oil is required in the making of ALL specialised Repair kits.
 
 RepairKitHandGuns,items,Item,KgNone,HD RepairKit Hand Guns,

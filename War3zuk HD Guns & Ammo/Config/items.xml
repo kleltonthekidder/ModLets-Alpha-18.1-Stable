@@ -77,6 +77,118 @@
 	
 <append xpath="/items">
 	
+<item name="HD Arctic Warefare">
+	<property name="DescriptionKey" value="HDAWarDesc"/>
+	<property name="CustomIcon" value="HD Arctic Warefare"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="11"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD AI Arctic Warfare.unity3d?HD AI Arctic Warfare.Prefab"/>
+	<property name="Material" value="MRifleParts"/> <property name="Weight" value="10"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="rifle_sight_in"/>
+	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="LightValue" value=".45"/>
+	<property name="EconomicValue" value="1000"/>
+	<property name="UnlockedBy" value="HD Arctic Warefare Schematic"/>
+	<property name="ShowQuality" value="true"/>
+
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".5"/>
+		<property name="Magazine_items" value="50 BMG Round"/>
+		<property name="Reload_time" value="2.5"/>
+		<property name="Sound_start" value="44magnum_fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="sniperrifle_reload"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+		<property name="ScopeCameraOffset" value="-.0004,.0230,-.05"/>
+	</property>
+
+	<effect_group name="gunMR10">
+		<passive_effect name="MaxRange" operation="base_set" value="150"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="8"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="5"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".04"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
+	</effect_group>
+</item>
+
+<item name="50 BMG Round">
+	<property name="Extends" value="ammo44MagnumBulletBall"/>
+	<property name="CustomIcon" value="50 BMG"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<effect_group name="Base Effects" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="60"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="10"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+	</effect_group>
+</item>
+
+<item name="HD Arctic Warefare Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Arctic Warefare Schematic"/>
+	<property name="Unlocks" value="HD Arctic Warefare"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Arctic Warefare" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+	
 <item name="HD 1911">
 	<property name="DescriptionKey" value="HD1911Desc"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,sideAttachments,smallTopAttachments,barrelAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
