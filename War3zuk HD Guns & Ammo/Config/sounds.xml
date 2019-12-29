@@ -182,5 +182,89 @@
 			<MaxRepeatRate value="0.001"/>
 	</SoundDataNode>
 	
+	<SoundDataNode name="1911fire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?1911fire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="akfire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?akfire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="ar15fire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?ar15fire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="defire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?defire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="m16fire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?m16fire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="mossbergfire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="5"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?mossbergfire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="m82fire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="300"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?m82fire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
 	</append>
 </configs>

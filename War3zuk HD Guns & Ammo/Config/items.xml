@@ -108,7 +108,7 @@
 		<property name="Delay" value=".5"/>
 		<property name="Magazine_items" value="50 BMG Round"/>
 		<property name="Reload_time" value="2.5"/>
-		<property name="Sound_start" value="44magnum_fire"/>
+		<property name="Sound_start" value="m82fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -217,7 +217,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Magazine_items" value="45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
-		<property name="Sound_start" value="Pistol_Fire"/>
+		<property name="Sound_start" value="1911fire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -301,7 +301,7 @@
 		<property name="Delay" value=".34"/>
 		<property name="Magazine_items" value="Deagle Round,50Mag Bullet INC,50Mag Bullet SH"/>
 		<property name="Reload_time" value="4"/>
-		<property name="Sound_start" value="44magnum_fire"/>
+		<property name="Sound_start" value="defire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
@@ -381,8 +381,8 @@
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
 		<property name="Magazine_items" value="45 ACP Round,45 ACP Round SH,45 ACP Round INC"/>
-		<property name="Sound_start" value="ak47_fire"/>
-		<property name="Sound_loop" value="ak47_fire"/>
+		<property name="Sound_start" value="ar15fire"/>
+		<property name="Sound_loop" value="ar15fire"/>
 		<property name="Sound_empty" value="dryfire"/>
 		<property name="Sound_reload" value="ak47_reload"/>
 		<property name="Sound_end" value="ak47_fire_end"/>
@@ -458,8 +458,8 @@
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".150"/>
 		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP,762Mag Bullet INC,762Mag Bullet SH"/>
-		<property name="Sound_start" value="ak47_fire"/>
-		<property name="Sound_loop" value="ak47_fire"/>
+		<property name="Sound_start" value="ar15fire"/>
+		<property name="Sound_loop" value="ar15fire"/>
 		<property name="Sound_empty" value="dryfire"/>
 		<property name="Sound_reload" value="ak47_reload"/>
 		<property name="Sound_end" value="ak47_fire_end"/>
@@ -535,8 +535,8 @@
 		<property name="Delay" value=".150"/>
 		<property name="Magazine_items" value="500 Auto Max,500Mag Bullet INC,500Mag Bullet SH"/>
 		<property name="Reload_time" value="2.5"/>
-		<property name="Sound_start" value="sniperrifle_fire"/>
-		<property name="Sound_loop" value="ak47_fire"/>
+		<property name="Sound_start" value="m16fire"/>
+		<property name="Sound_loop" value="m16fire"/>
 		<property name="Sound_empty" value="dryfire"/>
 		<property name="Sound_reload" value="ak47_reload"/>
 		<property name="Sound_end" value="ak47_fire_end"/>
@@ -696,7 +696,7 @@
 		<property name="Delay" value=".8"/>
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
-		<property name="Sound_start" value="pump_shotgun_fire"/>
+		<property name="Sound_start" value="mossbergfire"/>
 		<property name="Sound_repeat" value="shotgun_reload_part_04"/>
 		<property name="Sound_end" value="shotgun_reload_part_04"/>
 		<property name="Sound_empty" value="dryfire"/>
