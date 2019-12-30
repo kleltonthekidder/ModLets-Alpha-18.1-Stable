@@ -17,8 +17,8 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD AK Hybrid ACP" count="1"  craft_time = "100" tags="perkGunslinger">
-	<ingredient name="resourceForgedSteel" count="150"/>
+<recipe name="HD AK Hybrid ACP" count="1"  craft_time = "100" tags="learnable,perkGunslinger">
+	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceSpring" count="15"/>
@@ -132,7 +132,7 @@
 	<ingredient name="Ammo Supply DE50" count="1"/>
 </recipe>
 
-<recipe name="50 BMG Round" count="1" craft_time = "1" craft_area="workbench">
+<recipe name="50 BMG Round" count="1" craft_time = "2" craft_area="workbench">
 	<ingredient name="resourceBulletTip" count="5"/>
 	<ingredient name="resourceGunPowder" count="10"/>
 	<ingredient name="resourceBulletCasing" count="5"/>
@@ -309,7 +309,7 @@
 </recipe>
 
 <recipe name="RepairKitHandGuns" count="1" craft_time = "2">
-	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceForgedIron" count="1"/>
 	<ingredient name="gunPistolParts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
 	<ingredient name="resourceCloth" count="1"/>
@@ -317,7 +317,7 @@
 </recipe>
 
 <recipe name="RepairKitAutomaticRifles" count="1" craft_time = "2">
-	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceForgedIron" count="1"/>
 	<ingredient name="gunAk47Parts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
 	<ingredient name="resourceCloth" count="1"/>
@@ -325,7 +325,7 @@
 </recipe>
 
 <recipe name="RepairKitShotGuns" count="1" craft_time = "2">
-	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceForgedIron" count="1"/>
 	<ingredient name="gunDoubleBarrelShotgunParts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
 	<ingredient name="resourceCloth" count="1"/>
@@ -333,7 +333,7 @@
 </recipe>
 
 <recipe name="RepairKitHuntingRifles" count="1" craft_time = "2">
-	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceForgedIron" count="1"/>
 	<ingredient name="gunHuntingRifleParts" count="1"/>
 	<ingredient name="resourceSpring" count="1"/>
 	<ingredient name="resourceCloth" count="1"/>
