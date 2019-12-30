@@ -77,9 +77,9 @@
 	
 <append xpath="/items">
 	
-<item name="HD Arctic Warefare">
+<item name="HD Arctic Warfare">
 	<property name="DescriptionKey" value="HDAWarDesc"/>
-	<property name="CustomIcon" value="HD Arctic Warefare"/>
+	<property name="CustomIcon" value="HD Arctic Warfare"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
@@ -100,7 +100,7 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="1000"/>
-	<property name="UnlockedBy" value="HD Arctic Warefare Schematic"/>
+	<property name="UnlockedBy" value="HD Arctic Warfare Schematic"/>
 	<property name="ShowQuality" value="true"/>
 
 	<property class="Action0">
@@ -178,13 +178,13 @@
 	</effect_group>
 </item>
 
-<item name="HD Arctic Warefare Schematic">
+<item name="HD Arctic Warfare Schematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="HD Arctic Warefare Schematic"/>
+	<property name="CustomIcon" value="HD Arctic Warfare Schematic"/>
 	<property name="Unlocks" value="HD Arctic Warefare"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Arctic Warefare" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Arctic Warfare" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
 	</effect_group>
 </item>
