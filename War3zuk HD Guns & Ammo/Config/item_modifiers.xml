@@ -1,11 +1,5 @@
 <configs>
 
-	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
-		<item_property_overrides name="HD 1911">
-			<property name="CrosshairOnAim" value="true"/>
-		</item_property_overrides>
-	</append>
-	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
 		<item_property_overrides name="HD 1911">
 			<property name="CrosshairOnAim" value="false"/>
@@ -32,12 +26,6 @@
 		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="true"/>
 			<property name="BarrelOffset" value="0,0.01,0.01"/>
-		</item_property_overrides>
-	</append>
-	
-	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
-		<item_property_overrides name="HD Spas 12">
-			<property name="Sound_start" value="silence1"/>
 		</item_property_overrides>
 	</append>
 	
@@ -82,14 +70,62 @@
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD 1911">
+			<property name="Sound_start" value="M1911FireS"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="Desert Eagle 50">
+			<property name="Sound_start" value="DEFireS"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
 		<item_property_overrides name="HD M4A1 Carbine">
-			<property name="Sound_start" value="silence4"/>
+			<property name="Sound_start" value="M4A1FireS"/>
+			<property name="Sound_loop" value="M4A1FireS"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
 		<item_property_overrides name="HD AK Hybrid ACP">
-			<property name="Sound_start" value="silence6"/>
+			<property name="Sound_start" value="AKHybridFireS"/>
+			<property name="Sound_loop" value="AKHybridFireS"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD Tactical AR">
+			<property name="Sound_start" value="ARS"/>
+			<property name="Sound_loop" value="ARS"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD M134 MiniGun">
+			<property name="Sound_start" value="M134FireS"/>
+			<property name="Sound_loop" value="M134FireS"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD Spas 12">
+			<property name="Sound_start" value="Spas12FireS"/>
+			<property name="Sound_loop" value="Spas12FireS"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD Mossberg 500">
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<item_property_overrides name="HD Arctic Warfare">
+			<property name="Sound_start" value="AWFireS"/>
 		</item_property_overrides>
 	</append>
 	

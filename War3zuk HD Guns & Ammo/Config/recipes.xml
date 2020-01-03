@@ -88,11 +88,11 @@
 </recipe>
 
 <recipe name="HD Arctic Warfare" craft_area="workbench" count="1" craft_time = "200" tags="learnable,perkDeadEye">
-	<ingredient name="resourceForgedSteel" count="150"/>
-	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceForgedSteel" count="250"/>
+	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceMechanicalParts" count="50"/>
-	<ingredient name="resourceDuctTape" count="20"/>
-	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
 <recipe name="HD Electrolyte" count="50" craft_time = "10" >
@@ -132,7 +132,7 @@
 	<ingredient name="Ammo Supply DE50" count="1"/>
 </recipe>
 
-<recipe name="50 BMG Round" count="1" craft_time = "2" craft_area="workbench">
+<recipe name="50 BMG Round" count="2" craft_time = "2" craft_area="workbench">
 	<ingredient name="resourceBulletTip" count="5"/>
 	<ingredient name="resourceGunPowder" count="10"/>
 	<ingredient name="resourceBulletCasing" count="5"/>
