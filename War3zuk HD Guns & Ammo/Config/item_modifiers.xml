@@ -58,7 +58,7 @@
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
 		<item_property_overrides name="HD Tactical AR">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0.00001,-0.003,0.10"/>
+			<property name="ScopeCameraOffset" value="-0.0020,0.003,0.10"/>
 		</item_property_overrides>
 	</append>
 	
