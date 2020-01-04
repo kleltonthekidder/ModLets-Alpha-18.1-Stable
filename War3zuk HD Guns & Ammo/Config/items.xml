@@ -171,7 +171,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="revolver_sight_in"/>
 	<property name="Sound_Sight_Out" value="revolver_sight_out"/>
