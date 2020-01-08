@@ -83,7 +83,7 @@
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="CustomIcon" value="HD 1911"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD M1911A.unity3d?HD M1911A.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Colt M1911A.unity3d?HD Colt M1911A.Prefab"/>
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitHandGuns"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -242,6 +242,11 @@
 		<passive_effect name="WeaponHandling" operation="base_set" value=".6"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6" tags="perkGunslinger"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="10" tags="perkGunslinger"/>
+		
+
+        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
+        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
+		
 	</effect_group>
 </item>
 
@@ -718,7 +723,7 @@
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD AI Arctic Warfare.unity3d?HD AI Arctic Warfare.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HD Arctic Warfare.Prefab"/>
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="10"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -734,7 +739,7 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
-	<property name="EconomicValue" value="10000"/>
+	<property name="EconomicValue" value="2500"/>
 	<property name="UnlockedBy" value="HD Arctic Warfare Schematic"/>
 	<property name="ShowQuality" value="true"/>
 
@@ -757,7 +762,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0004,.0200,-.05"/>
+		<property name="ScopeCameraOffset" value="-.0004,.0210,-.06"/>
 	</property>
 
 	<effect_group name="gunMR10">
@@ -794,6 +799,10 @@
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
+		
+        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
+        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
+		
 	</effect_group>
 </item>
 
