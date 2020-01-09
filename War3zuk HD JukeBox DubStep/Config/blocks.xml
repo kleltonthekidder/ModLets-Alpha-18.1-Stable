@@ -25,11 +25,9 @@
 	  <property name="StabilitySupport" value="false"/>
 	  <property name="OnlySimpleRotations" value="true"/>
 	  <property name="CanPickup" value="false" />
-	  <property name="LootList" value="98"/>
 	  <drop event="Destroy" count="0"/>
 	  <property name="DowngradeBlock" value="HDJukeBoxDubStepOFF"/>
 </block>
 
 </append>
 </configs>
-

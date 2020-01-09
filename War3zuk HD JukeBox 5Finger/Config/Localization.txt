@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English
+
+HDJukeBoxReggaeOFF,items,Item,KgNone,HD JukeBox Reggae OFF,
+
+HDJukeBoxReggaeON,items,Item,KgNone,HD JukeBox Reggae ON,
+
+HDJukeBox5FingerDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Wrong Side Of Heaven.\n\nTrack 002 The Bleeding.\n\nTrack 003 Battle Born.\n\nTrack 004 The Pride.\n\nTrack 005 Far From Home.
