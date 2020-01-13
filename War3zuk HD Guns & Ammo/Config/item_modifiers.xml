@@ -18,20 +18,21 @@
 	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
 		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0.0010,-0.032,0.05"/>
+			<property name="ScopeCameraOffset" value="-0.0008,-0.033,0.05"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
 		<item_property_overrides name="HD Desert Eagle">
-			<property name="CrosshairOnAim" value="false"/>
+			<property name="CrosshairOnAim" value="true"/>
 		</item_property_overrides>
 	</append>
 	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
 		<item_property_overrides name="HD Desert Eagle">
 			<property name="CrosshairOnAim" value="true"/>
-			<property name="BarrelOffset" value="0,0.01,0.01"/>
+			<property name="BarrelOffset" value="-0.10,0.01,0.01"/>
+			<property name="ScopeCameraOffset" value="-0.0002,-0.000,-0.000"/>
 		</item_property_overrides>
 	</append>
 	
