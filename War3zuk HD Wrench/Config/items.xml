@@ -3,10 +3,11 @@
 <append xpath="/items">
 
 <item name="HD Wrench">
+	<property name="DescriptionKey" value="HDWrenchDesc"/>
 	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,perkSalvageOperations,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeRepairTool"/>
 	<property name="HoldType" value="29"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HDWrench.unity3d?HDWrench.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Wrench.unity3d?HD Wrench.Prefab"/>
 	<property name="CustomIcon" value="HD Wrench"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceForgedSteel"/>
@@ -29,18 +30,18 @@
 		<property name="Repair_amount" value="650"/>
 		<property name="Upgrade_hit_offset" value="-2"/>
 		<property name="Sound_start" value="repair_block"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,resourceYuccaFibers"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail"/>
 	</property>
 	<effect_group name="Base Effects">
-		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+		<passive_effect name="MaxRange" operation="base_set" value="1.2"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="15.5"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="25"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="1.5"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="metal"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="80"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="70"/>
 		<passive_effect name="HarvestCount" operation="base_set" value="2.5" tags="salvageHarvest"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="1.2" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1000,1500" tier="1,6"/>
