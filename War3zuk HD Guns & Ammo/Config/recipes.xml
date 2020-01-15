@@ -95,6 +95,14 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
+<recipe name="HD HK33 Hybrid" craft_area="workbench" count="1" craft_time = "150" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
 <recipe name="HD Electrolyte" count="50" craft_time = "10" >
 	<ingredient name="carBattery" count="1"/>
 </recipe>

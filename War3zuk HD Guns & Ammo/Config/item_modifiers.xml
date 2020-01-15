@@ -76,6 +76,20 @@
 		</item_property_overrides>
 	</append>
 	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="HD AK Hybrid ACP">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0008,-.022,.25"/>
+		</item_property_overrides>
+	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<item_property_overrides name="HD HK33 Hybrid">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0010,-0.0150,.30"/>
+		</item_property_overrides>
+	</append>
+	
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
 		<item_property_overrides name="HD 1911">
 			<property name="Sound_start" value="M1911FireS"/>

@@ -22,6 +22,7 @@
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.01"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.01"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='12']" >
@@ -40,6 +41,7 @@
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.01"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.01"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='34']" >
@@ -76,6 +78,7 @@
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.01"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.01"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='70']" >
@@ -99,6 +102,7 @@
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.01"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.01"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='110']" >
@@ -122,6 +126,7 @@
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.01"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.01"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.01"/>
 	</append>
 	
 	<append xpath="/lootcontainers/lootcontainer[@id='40']" >
@@ -133,6 +138,7 @@
 		<item name="HD Spas 12 Schematic" count="1" prob="0.01"/>
 		<item name="HD Arctic Warfare Schematic" count="1" prob="0.01"/>
 		<item name="HD AK Hybrid ACP Schematic" count="1" prob="0.01"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob="0.01"/>
 	</append>
 
 </configs>
